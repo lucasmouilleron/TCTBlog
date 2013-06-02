@@ -1,4 +1,4 @@
 TCTBlog
 =======
 
-The Creative Technology BLog
+The Creative Technology Blog
