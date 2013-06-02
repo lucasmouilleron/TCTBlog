@@ -1,0 +1,76 @@
+
+{% if notLastPost %}
+<div class="post">
+    {% else %}
+    <div class="post last">
+        {% endif %}
+
+        <div class="header">
+            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            {% if page.author %}
+            <div class="author">
+                Par {{ page.author }}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="content">
+
+
+            <!--
+            <div class="date">
+                <span>{{ page.date | date_to_long_string }}</span>
+            </div>-->
+
+            {% if page.picture %}
+            <div class="picture">
+                <img src="{{ BASE_PATH }}/assets/postPictures/{{page.picture}}"/>
+            </div>
+            {% endif %}
+
+
+            {{ content }}
+
+            {% unless page.categories == empty %}
+            <ul class="tags inline">
+                <li><i class="icon-folder-open"></i></li>
+                {% assign categories_list = page.categories %}
+                {% include JB/categories_list %}
+            </ul>
+            {% endunless %}  
+
+            {% unless page.tags == empty %}
+            <ul class="tags inline">
+                <li><i class="icon-tags"></i></li>
+                {% assign tags_list = page.tags %}
+                {% include JB/tags_list %}
+            </ul>
+            
+            {% endunless %}  
+
+            {% unless page.noPostPagination != empty %}
+            <hr>
+            <div class="pagination">
+                <ul>
+                    {% if page.previous %}
+                    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
+                    {% else %}
+                    <li class="prev disabled"><a>&larr; Précédent</a></li>
+                    {% endif %}
+                    <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+                    {% if page.next %}
+                    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
+                    {% else %}
+                    <li class="next disabled"><a>Suivant &rarr;</a>
+                        {% endif %}
+                </ul>
+            </div>
+            {% endunless %}  
+
+            <!--<hr>
+            {% include JB/comments %}-->
+
+            
+        </div>
+    </div>
+    <div class="clearfix"></div>
