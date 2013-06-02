@@ -1,4 +1,4 @@
 TCTBlog
 =======
 
-The Creative Technology Blog
+Everything is in gh-pages branch
