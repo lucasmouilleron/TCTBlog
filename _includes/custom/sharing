@@ -1,7 +1,8 @@
 <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="{{BASE_PATH}}{{page.url}}">
-<a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_2"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_twitter"></a>
 <a class="addthis_button_linkedin"></a>
+<a class="copyClipboard" onClick="copyToClipboard('Pour copier le lien, presser CTRL + C puis Enter','{{BASE_PATH}}{{page.url}}')"><img src="{{ASSET_PATH}}/ct/images/link.png"/></a>
 </div>
 <script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f9a4d465c9db0ae"></script>

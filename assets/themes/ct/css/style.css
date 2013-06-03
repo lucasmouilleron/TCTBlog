@@ -10,6 +10,7 @@ body, button, input, select, textarea, li {
 /******************************************************************************/
 a, a:visited {
     color:blue;
+    cursor:pointer;
 }
 
 a:hover {
@@ -150,12 +151,16 @@ hr {
     margin-bottom:1em;
 }
 
+.sharing a:hover {
+    opacity: 0.7;
+}
+
 /******************************************************************************/
 header {
     background-attachment: fixed;
     background-clip: border-box;
-    background-color:rgba(0, 0, 0, 0);
-    background-image: url(../images/header.gif);
+    background-color:#0000db;
+    background-image: url(../images/header.jpg);
     background-origin: padding-box;
     background-size: cover;
     display: block;
@@ -168,7 +173,7 @@ header h1, header h2, header a,header a:visited {
 }
 
 header a:hover {
-    color:#ddd;
+    color:#fff;
 }
 
 header h1 {
@@ -239,7 +244,7 @@ nav li:hover > a {
 nav.sticky {
     position:fixed;
     top:0;
-    background-color:#222;
+    background-color:#0015fa;
     -webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.96);
     -moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.96);
     box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.96);
