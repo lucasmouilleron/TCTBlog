@@ -8,10 +8,13 @@
         <div class="header">
             <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
             {% if page.author %}
-            <div class="author">
-                Par {{ page.author }}
-            </div>
+            {% assign author = page.author %}
+            {% else %}
+            {% assign author = site.author.name %}
             {% endif %}
+            <div class="author">
+                Par {{ author }}
+            </div>
         </div>
 
         <div class="content">
@@ -24,7 +27,7 @@
 
             {% if page.picture %}
             <div class="picture">
-                <img src="{{ BASE_PATH }}/assets/postPictures/{{page.picture}}"/>
+                <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
             </div>
             {% endif %}
 
@@ -45,8 +48,11 @@
                 {% assign tags_list = page.tags %}
                 {% include JB/tags_list %}
             </ul>
-            
             {% endunless %}  
+
+            <div class="sharing">
+                {% include JB/sharing %}
+            </div>
 
             {% unless page.noPostPagination != empty %}
             <hr>
@@ -70,7 +76,7 @@
             <!--<hr>
             {% include JB/comments %}-->
 
-            
+
         </div>
     </div>
     <div class="clearfix"></div>

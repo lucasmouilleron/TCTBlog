@@ -11,9 +11,11 @@ production_url : http://thecreativetechnology.com
 paginate: 10
 excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title 
+include: [".htaccess"]
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
+safe: true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -44,6 +46,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #BASE_PATH : false
   BASE_PATH : http://lucasmouilleron.github.io/TCTBlog
+  #BASE_PATH : http://thecreativetechnology.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -97,7 +100,7 @@ JB :
   # Set 'provider' to false to turn sharing off globally.
   #
   sharing :
-    provider : like
+    provider : custom
     
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
