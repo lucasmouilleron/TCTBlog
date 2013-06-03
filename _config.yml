@@ -12,10 +12,11 @@ paginate: 10
 excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title 
 include: [".htaccess"]
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "nbproject"]
 auto: true
 pygments: true
 safe: true
+markdown: rdiscount
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
