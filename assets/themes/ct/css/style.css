@@ -1,7 +1,7 @@
 /******************************************************************************/
 body, button, input, select, textarea, li {
     color: #111;
-    font-family: "Century Schoolbook", Century, Garamond, serif;
+    font-family: "Century Schoolbook", Century, "century_custom", Garamond, serif;
     font-size: 20px;
     line-height: 1.4em;
     padding:0;
@@ -270,4 +270,11 @@ footer li {
     margin:0;
     font-size:0.8em;
     color:#666;
+}
+
+/******************************************************************************/
+@media (max-width: 600px) {
+    body, button, input, select, textarea, li {
+        font-size:14px;
+    }
 }

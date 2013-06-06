@@ -12,7 +12,9 @@ La navigation est en temps réel. Un serveur virtuel dans le cloud est alloué  
 
 Le service propose également de réaliser des captures d’écrans.
 
+
 ##Navigateurs et OS supportés
+
 - Windows XP, Windows 7, Windows 8, Mac OS Snow Leopard, Mac OS Lion, Mac OS Moutain Lion, iOS, Androïd, Opera Mobile
 - IE : 6,7,8,9,10
 - Firefox : 3 à 20
@@ -23,17 +25,24 @@ Le service propose également de réaliser des captures d’écrans.
 - Androïd : Galaxys, Droids, Xperia, Nexus, etc.
 - Tous les navigateurs et OS
 
+
 ##Développement en local
+
 BrowserStack permet de créer un tunnel web vers un serveur en local ou accessible depuis le réseau local.
 
+
 ##Avantages et usages
+
 - Pas de VMs à lancer
 - Outils de debugging disponibles : Firebub, consoles JS, etc : plus de détails
 - Idéal pour le recettage de chefs de projets
 - Idéal pour du tests et de la compatibilisation pour les développeurs
 
+
 ##Points faibles
+
 - Bonne fluidité, mais pas suffisante pour tester de la perfomance ou de l’animation
+
 
 ##Accéder au service
 - 19$ / mois par utilisateur
