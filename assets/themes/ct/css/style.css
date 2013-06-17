@@ -294,6 +294,7 @@ code {
     }
 
     nav ul li {
+        font-size:12px;
         background: url(../images/diamond.png) 0px 20px no-repeat;
     }
 
