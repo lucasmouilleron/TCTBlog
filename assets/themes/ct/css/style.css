@@ -278,6 +278,10 @@ footer li {
     float:left;
 }
 
+code {
+    white-space:normal;
+}
+
 /******************************************************************************/
 @media (max-width: 600px) {
     body, button, input, select, textarea, li {
