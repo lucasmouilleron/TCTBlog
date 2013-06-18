@@ -6,7 +6,7 @@ picture: secondscreens.jpg
 ---
 {% include JB/setup %}
 
-Les “second screens” définissent les devices (smartphone, tablette) qui proposent à l’utilisateur une expérience enrichie et des contenus additionnels associés à une première expérience “maître” télévisuelle (émission de télé, jeu vidéo, média center, etc.)
+Les “second screens” définissent les devices (smartphone, tablette) qui proposent à l’utilisateur une expérience enrichie et des contenus additionnels associés à une première expérience “maître” (émission de télé, jeu vidéo, média center, etc.)
 
 Les “companions” seraient les applications hébergées dans les seconds screens.
 
@@ -20,7 +20,7 @@ Les “companions” seraient les applications hébergées dans les seconds scre
 - GPS, 3G : Le joueur démarre le jeu depuis sa console, le companion se lance, il quitte son domicile, le GPS traque ses mouvements et il réalise des missions dans la vie réelle
 
 ##Solution technique via cloud / API / messages : Smartglass à la Microsoft
-- Smartglass est la solution Microsoft pour enrichier les contenus XBox (jeux, vidéos, musique)
+- Smartglass est la solution Microsoft pour enrichir les contenus XBox (jeux, vidéos, musique)
 - Le companion Smartglass existe sous forme d’application pour iOS, Androïd et Windows Phones et Tablets
 - L’application ne se télécharge qu’une fois
 - Lorsqu’un contenu “maître” XBox est diffusé depuis la XBox de l’utilisateur (jeu, épisiode d’une série, film, chanson)

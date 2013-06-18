@@ -32,7 +32,7 @@ Avec HTML5 et l'ouverture des composants des devices mobiles (accéléromètre, 
 >Si Starbucks voulait lancer un nouveau produit dans une ville, nous leur conseillerions de créer une chasse au trésor en temps réel sur google maps. Sans applicaition à télécharger, les participants se connecteraient sur le site de la marque et pourraient consulter la carte de la ville, la position en temps réel des autres concurrents ainsi que celle des cadeaux et bons de réduction. Le dernier checkpoint serait finalement un magasin phare dans lequel serait organisé une cérémonie d'intrônisation du vainqeur.
 
 ##Compatibilité navigateurs 
-Une révision du protocole WebSocket datant de 2011 corrigent une faille de sécurité et est supportée par toutes les dernières versions de navigateurs.
+Une révision du protocole WebSocket datant de 2011 corrige une faille de sécurité et est supportée par toutes les dernières versions de navigateurs.
 
 - Firefox 6+, Firefox android 7+
 - IE 10+
