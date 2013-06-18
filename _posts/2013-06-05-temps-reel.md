@@ -23,7 +23,7 @@ Les WebSockets sont la réponse à ce besoin.
 - __WebSockets__ : une connexion _bi-directionnelle permanente_ entre le navigateur et le serveur est établie et utilisée pour transférer des données dans un sens comme dans l'autre
 
 ##Gain technologique, applications et potentiel
-- La capacité à recevoir spontanément des informations des serveurs permet TODO
+- La capacité à recevoir spontanément des informations des serveurs permet de présenter à l'utilisateur des informations justes : [google finance](https://www.google.com/finance?q=AAPL&ei=kB_AUfCTCaqTwQOKngE)
 - Le _facteur 100_ de verbosité gagné rend possible des interactions entre plusieurs devices connectés à internet. Combiné à à l'accéléromètre et au tactile des devices mobiles, les interactions de contrôles sont envisageables : [utilisation du mobile comme contrôleur de jeu](http://chrome.com/maze/)
 - Le _broadcast_ permet d'envoyer des informations à plusieurs utilisateurs en même temps qui peuvent participer à des expériences multi joueurs en temps réel comme [rumpetroll](http://rumpetroll.com)
 
