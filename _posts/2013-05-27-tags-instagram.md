@@ -16,7 +16,7 @@ Il est désormais possible de tagger des utilisateurs dans des photos Instagram.
 
 ##Marques, campagnes et API
 
-- Pour une marque, cette fonctionnalité peut être un outil de crowd curation pour monitorer l’appropriation de la marque pas ses consommateurs.
+- Pour une marque, cette fonctionnalité peut être un outil de _crowd curation_ pour _monitorer l’appropriation de la marque pas ses consommateurs_.
 - Il est désormais possible de réaliser des campagnes / concours de soumissions de photos sans passer par des hash tags cryptiques : il suffit d’inviter les consommateurs à tagger la marque dans leurs photos.
 - A ce jour, la documentation de l’API n’indique toujours pas comment récupérer les “Photos Of You”.
 
