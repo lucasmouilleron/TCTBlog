@@ -28,4 +28,5 @@ L'idée est de générer une police de pictogrammes (a = mail, b = ampoule, c = 
 
 ##Ressources :
 - [Article CSS Tricks](http://css-tricks.com/examples/IconFont)
+- [FontAwesome](http://fontawesome.io)
 - [Fontello.com, génération de pictogrammes](http://fontello.com)
