@@ -31,14 +31,14 @@ picture: outils-semaine-2.jpg
 - transitions CSS3
 - compatiblité : IE8+ (partiel), IE10
 
-##Formatter :
+##Formatter.js :
 - [http://firstopinion.github.io/formatter.js](http://firstopinion.github.io/formatter.js)
 - librairie de formattage de saisie
 - contraint l'utilisaeur à saisir suivant un motif définit
 - technologue : JS, jQuery
 
-##Cheet :
-- [http://namuol.github.io/cheet.js](http://namuol.github.io/cheet.js) 
+##Cheet.js :
+- [https://github.com/namuol/cheet.js](https://github.com/namuol/cheet.js) 
 - librairie de gestion de codes de triche :)
 - technologie : JS
 - compatibilité : IE7+
