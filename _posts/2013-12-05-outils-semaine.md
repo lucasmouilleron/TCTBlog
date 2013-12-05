@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [lib, semaine]
+tags: [lib, js, email, css3]
 picture: outils-semaine-2.jpg
 ---
 {% include JB/setup %}
