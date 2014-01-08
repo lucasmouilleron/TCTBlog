@@ -36,4 +36,5 @@ picture: outils-semaine-4.jpg
 ##PhysicsJS
 - [http://wellcaffeinated.net/PhysicsJS](http://wellcaffeinated.net/PhysicsJS)
 - Moteur physique javascript
+- For fun
 - [Démos](http://wellcaffeinated.net/PhysicsJS/examples/#demo-3)
