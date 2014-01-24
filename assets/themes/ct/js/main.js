@@ -3,6 +3,7 @@
 //------------------------------------------------------------------------------
 $(function() {
     setupMenu();
+    setupLinks();
 });
 
 //------------------------------------------------------------------------------
@@ -14,13 +15,13 @@ function setupMenu() {
         $("header nav.sticky").animate({opacity: 1});
         $("header nav.sticky *").animate({opacity: 1});
     });*/
-    var navOuterHeight = $("header nav").outerHeight();
-    var navHeight = $("header nav").height();
-    $(".navWrapper").height(navOuterHeight);
-    $("body .container").waypoint({
-        handler: function(direction) {
-            if (direction === "down") {
-                $("header nav").addClass("sticky");
+var navOuterHeight = $("header nav").outerHeight();
+var navHeight = $("header nav").height();
+$(".navWrapper").height(navOuterHeight);
+$("body .container").waypoint({
+    handler: function(direction) {
+        if (direction === "down") {
+            $("header nav").addClass("sticky");
                 //$("header nav.sticky").css({opacity: 0.9});
                 //$("header nav.sticky *").css({opacity: 0.9});
                 $("header nav").css({top: -navHeight});
@@ -45,3 +46,11 @@ function setupMenu() {
 function copyToClipboard (label, text) {
   window.prompt (label, text);
 }
+
+//------------------------------------------------------------------------------
+function setupLinks() {
+    $('a[href^="http"]').each(function(){
+        $(this).attr('target', '_blank');
+    });
+}
+
