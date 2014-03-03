@@ -1,4 +1,4 @@
-/******************************************************************************/
+/*//////////////////////////////////////////////////////////////////////////////*/
 body, button, input, select, textarea, li {
     color: #111;
     font-family: "Century Schoolbook", Century, "century_custom", Garamond, serif;
@@ -7,7 +7,7 @@ body, button, input, select, textarea, li {
     padding:0;
 }
 
-/******************************************************************************/
+/*//////////////////////////////////////////////////////////////////////////////*/
 a, a:visited {
     color:blue;
     cursor:pointer;
@@ -65,7 +65,40 @@ hr {
     margin: 30px 0; 
 }
 
-/******************************************************************************/
+table {
+    width:100%;
+}
+
+thead {
+    background-color: #333333;
+    color:#fff;
+}
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+td, th {
+    font-size:0.7em;
+    padding:3px 8px;
+    text-align: left;
+}
+
+th {
+    font-size:0.7em;
+    line-height: 1.4em;
+    padding:8px 8px;
+}
+
+blockquote {
+    background-color:#eee;
+    border-left:5px solid #ddd;
+    padding:1px 20px 15px 16px;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+/*//////////////////////////////////////////////////////////////////////////////*/
 .post {
     margin-bottom:3em;
     border-bottom:1px solid #eee;
@@ -155,7 +188,7 @@ hr {
     opacity: 0.7;
 }
 
-/******************************************************************************/
+/*//////////////////////////////////////////////////////////////////////////////*/
 header {
     background-attachment: fixed;
     background-clip: border-box;
@@ -277,7 +310,7 @@ footer li {
     color:#666;
 }
 
-/******************************************************************************/
+/*//////////////////////////////////////////////////////////////////////////////*/
 .copyClipboard {
     float:left;
 }
@@ -286,7 +319,7 @@ code {
     white-space:normal;
 }
 
-/******************************************************************************/
+/*//////////////////////////////////////////////////////////////////////////////*/
 @media (max-width: 600px) {
     body, button, input, select, textarea, li {
         font-size:13px;
