@@ -24,16 +24,18 @@ h1 {
     font-size: 2.7em;
     text-align: center;
     margin: 1.5em 0 0.4em 0;
-    line-height: 1.2;
+    line-height: 1em;
     font-weight:normal;
 }
 
 h2 {
     margin: 1.5em 0 0.4em 0;
+    line-height: 1em;
 }
 
 h3 {
     margin: 0.8em 0 0.4em 0;
+    line-height: 1em;
 }
 
 
@@ -184,6 +186,7 @@ blockquote {
     border-radius: 3px;
     text-decoration: none;
     border: 1px dashed #cccccc; 
+    line-height: 2em;
 }
 
 .tags a span {
@@ -281,27 +284,22 @@ header span {
 nav {
     margin: auto;
     display: block;
-    float: left;
-    width: 100%;
     margin-bottom:1.5em;
+    text-align: center;
     z-index:999;
 }
 
 nav ul {
-    float: right;
+    display: inline-block;
     list-style: none;
-    margin: 0;
-    padding-left: 0;
-    position: relative;
-    right: 50%;
 }
 
 nav ul li {
     float: left;
     font-size:14px;
     position: relative;
-    left: 50%;
     background: url(../images/diamond.png) 0px 24px no-repeat;
+    margin-bottom:0;
 }
 
 nav ul li.active a {
@@ -330,9 +328,14 @@ nav.sticky {
     background-image: url(../images/header.jpg);
     background-position: center top;
     background-size: cover;
-    -webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.26);
-    -moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.26);
-    box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.26);
+    -webkit-box-shadow: 0px 5px 10px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow:    0px 5px 10px rgba(50, 50, 50, 0.35);
+    box-shadow:         0px 5px 10px rgba(50, 50, 50, 0.35);
+    width:100%;
+}
+
+nav.sticky ul {
+    margin:0;
 }
 
 footer {
@@ -377,9 +380,14 @@ code {
         background-size: auto;
     }
 
+    nav ul {
+        width:100%;
+    }
+
     nav ul li {
         font-size:12px;
-        background: url(../images/diamond.png) 0px 20px no-repeat;
+        background: none;
+        clear:both;
     }
 
     header h1 {
@@ -388,6 +396,14 @@ code {
 
     .post h1 {
         word-break:break-all;
+    }
+
+    .post h2 {
+        word-break:break-all;
+    }
+
+    nav.sticky {
+        display:none;
     }
 
 }

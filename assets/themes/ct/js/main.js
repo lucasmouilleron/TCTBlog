@@ -38,7 +38,7 @@ $("body .container").waypoint({
                 });
             }
         },
-        offset: navOuterHeight + 20
+        offset: navOuterHeight - 40
     });
 }
 
