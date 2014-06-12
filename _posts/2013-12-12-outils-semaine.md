@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [lib, js, presentation, css3, input, ux, fun]
+categories: [dev]
+tags: [outils, lib, js, presentation, css3, input, ux, fun]
 picture: outils-semaine-3.jpg
 ---
 {% include JB/setup %}

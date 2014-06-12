@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Réussir la conception d'un emailing
+categories: [reflexion]
 tags: [emailing, conception]
 picture: emailing.jpg
 ---

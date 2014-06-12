@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [desktop, app, guide, analytics]
+tags: [outils, desktop, app, guide, analytics]
 picture: outils-semaine-7.jpg
 ---
 {% include JB/setup %}

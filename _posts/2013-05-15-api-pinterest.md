@@ -1,6 +1,7 @@
 ---
 layout: post
 title: API Pinterest non officielle
+categories: [dev]
 tags: [api, pinterest, social]
 picture: api-pinterest.jpg
 ---

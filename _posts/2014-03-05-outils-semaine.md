@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [lib, js, background, adaptibilité]
+categories: [dev]
+tags: [outils, lib, js, background, adaptibilité]
 picture: outils-semaine-6.jpg
 ---
 {% include JB/setup %}

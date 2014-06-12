@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [css3, icons, carousel, loader]
+categories: [dev]
+tags: [outils, css3, icons, carousel, loader]
 picture: outils-semaine-8.jpg
 ---
 {% include JB/setup %}

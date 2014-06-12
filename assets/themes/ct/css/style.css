@@ -16,6 +16,7 @@ a, a:visited {
 a:hover {
     color:red;
     text-decoration:none;
+
 }
 
 h1 {
@@ -43,12 +44,16 @@ p {
     text-align:justify;
 }
 
+ul {
+    margin-bottom:1.3em;
+}
+
 li {
-    margin-bottom:0.6em;
+    margin-bottom:0.3em;
 }
 
 li ul {
-    margin-top:0.6em;
+    margin-top:0.2em;   
 }
 
 .container {
@@ -114,9 +119,33 @@ blockquote {
     margin-bottom:1em;
 }
 
-.picture {
+.picture-head {
     margin-bottom:1.5em;
     width:100%;
+}
+
+.content a img {
+    -webkit-box-shadow: 0px 8px 17px 0px rgba(50, 50, 50, 0.35);
+    -moz-box-shadow:    0px 8px 17px 0px rgba(50, 50, 50, 0.35);
+    box-shadow:         0px 8px 17px 0px rgba(50, 50, 50, 0.35);
+}
+
+.content a img {
+    z-index:1;
+    opacity: 0.9;
+    transition: .15s ease-in-out;
+    -moz-transition: .15s ease-in-out;
+    -webkit-transition: .15s ease-in-out;
+
+}
+.content a img:hover,.content a img:focus, .content a img:active {
+    z-index:1;
+    opacity: 1;
+    -moz-transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03);
+    -ms-transform: scale(1.03);
 }
 
 .author {
@@ -192,21 +221,25 @@ blockquote {
 header {
     background-attachment: fixed;
     background-clip: border-box;
-    background-color:#e12919;
+    background-color:#b1e6fd;
     background-image: url(../images/header.jpg);
     background-origin: padding-box;
     background-size: cover;
     display: block;
     padding:4em 0;
     width: 100%;
+    -webkit-box-shadow: 0px -10px 10px rgba(50, 50, 50, 0.26) inset;
+    -moz-box-shadow:    0px -10px 10px rgba(50, 50, 50, 0.26) inset;
+    box-shadow:         0px -10px 10px rgba(50, 50, 50, 0.26) inset;
 }
 
 header h1, header h2, header a,header a:visited {
-    color: #ffffff;
+    color: #111;
+    text-transform: capitalize;
 }
 
 header a:hover {
-    color:#fff;
+    color:#000;
 }
 
 header h1 {
@@ -218,6 +251,7 @@ header h1 {
     margin-top:0;
     width:100%;
     overflow:hidden;
+    line-height: 0.9em;
 }
 
 header h2 {
@@ -231,12 +265,26 @@ header h2 {
     line-height: 1.2em;
 }
 
+h2.categories {
+    text-transform: capitalize;
+}
+
+h2.tags {
+    text-transform: capitalize;
+}
+
+header span {
+    font-size:0.7em;
+    vertical-align: super;
+}
+
 nav {
     margin: auto;
     display: block;
     float: left;
     width: 100%;
     margin-bottom:1.5em;
+    z-index:999;
 }
 
 nav ul {
@@ -278,14 +326,13 @@ nav li:hover > a {
 nav.sticky {
     position:fixed;
     top:0;
-    background-color:#e12919;
+    background-color:#b1e6fd;
     background-image: url(../images/header.jpg);
-    background-position: center bottom;
+    background-position: center top;
     background-size: cover;
-    background-color:#e12919;
-    -webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.96);
-    -moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.96);
-    box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.96);
+    -webkit-box-shadow: 0px 2px 10px rgba(50, 50, 50, 0.26);
+    -moz-box-shadow:    0px 2px 10px rgba(50, 50, 50, 0.26);
+    box-shadow:         0px 2px 10px rgba(50, 50, 50, 0.26);
 }
 
 footer {

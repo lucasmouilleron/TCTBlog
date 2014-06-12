@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Meta données sociales
+categories: [dev]
 tags: [social]
 picture: social-tags.jpg
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Webapps temps réel avec les WebSockets
+categories: [reflexion]
 tags: [webapp, temps réel, websocket]
 picture: realtime.jpg
 ---

@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Les outils de la semaine
-tags: [lib, js, documentation, grille, input, physics]
+categories: [dev]
+tags: [outils, lib, js, documentation, grille, input, physics]
 picture: outils-semaine-4.jpg
 ---
 {% include JB/setup %}

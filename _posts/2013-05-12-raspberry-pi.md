@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Raspberry PI, ordinateur embarquable à 50$
+categories: [dev]
 tags: [digital IRL, raspberry]
 picture: raspberry-pi.jpg
 ---

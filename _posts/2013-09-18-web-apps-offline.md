@@ -1,6 +1,7 @@
 ---
 layout: post
 title: WebApps Offlines
+categories: [reflexion]
 tags: [webapp, offline, api, html5, mvc]
 picture: webapp-offline.jpg
 ---
