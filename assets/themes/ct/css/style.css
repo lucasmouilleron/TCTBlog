@@ -103,6 +103,12 @@ blockquote {
     padding:1px 20px 15px 16px;
     margin-top:30px;
     margin-bottom:30px;
+    
+}
+
+blockquote p {
+    font-size:1em;
+    line-height: 1.4em;
 }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
@@ -373,11 +379,14 @@ code {
 @media (max-width: 600px) {
     body, button, input, select, textarea, li {
         font-size:13px;
+        word-break:break-all;
     }
 
     header {
         background-origin: none;
         background-size: auto;
+        overflow:hidden;
+        word-break:normal;
     }
 
     nav ul {
@@ -391,15 +400,7 @@ code {
     }
 
     header h1 {
-        font-size:3em;
-    }
-
-    .post h1 {
-        word-break:break-all;
-    }
-
-    .post h2 {
-        word-break:break-all;
+        font-size:2.5em;
     }
 
     nav.sticky {

@@ -44,7 +44,7 @@ En fonction du contexte applicatif, des solutions existent optimiser le SEO. Ré
     - [https://github.com/defunkt/jquery-pjax](https://github.com/defunkt/jquery-pjax) : implémentation de progresssive enhancement simplifié
 
 ##Conclusions
-Dans le cas d'une *web app très fonctionnelle*, les frameworks MVC comme backbone ou angular sont le meilleur ami du développeur. Si des besoins de SEO sont présents, *le snapshoting est la bonne solution*.
-
-Dans le cas d'un *site web orienté contenus*, *le progressive enhancement n'est finalement qu'une théorisation des pratiques classiques*. 
+> Dans le cas d'une *web app très fonctionnelle*, les frameworks MVC comme backbone ou angular sont le meilleur ami du développeur. Si des besoins de SEO sont présents, *le snapshoting est la bonne solution*.
+ 
+> Dans le cas d'un *site web orienté contenus*, *le progressive enhancement n'est finalement qu'une théorisation des pratiques classiques*. 
 Le progressive enhancement couplé à des frameworks MVC parait quant à lui assez lourd.
