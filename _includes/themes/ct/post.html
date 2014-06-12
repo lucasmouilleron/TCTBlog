@@ -31,8 +31,9 @@
             </div>
             {% endif %}
 
-
-            {{ content }}
+            <div class="content-content">
+                {{ content }}
+            </div>
 
             {% unless page.categories == empty %}
             <ul class="tags inline">
@@ -69,9 +70,9 @@
                     {% else %}
                     <li class="next disabled"><a>Suivant &rarr;</a>
                         {% endif %}
-                </ul>
-            </div>
-            {% endunless %}  
+                    </ul>
+                </div>
+                {% endunless %}  
 
             <!--<hr>
             {% include JB/comments %}-->
