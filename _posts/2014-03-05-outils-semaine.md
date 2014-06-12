@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les outils de la semaine
+title: Les outils de la semaine 6
 categories: [dev]
 tags: [outils, lib, js, background, adaptibilité]
 picture: outils-semaine-6.jpg

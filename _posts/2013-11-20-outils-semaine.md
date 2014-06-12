@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les outils de la semaine
+title: Les outils de la semaine 1
 categories: [dev]
 tags: [outils, lib, js, css3, message, scrolling]
 picture: outils-semaine-1.jpg

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les outils de la semaine
+title: Les outils de la semaine 9
 categories: [dev]
 tags: [outils, lib, analytics, events, multi-touch]
 picture: outils-semaine-9.jpg

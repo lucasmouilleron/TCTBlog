@@ -49,7 +49,7 @@ function copyToClipboard (label, text) {
 
 //------------------------------------------------------------------------------
 function setupLinks() {
-    $('a[href^="http"]').each(function(){
+    $('.container a[href^="http"]').each(function(){
         $(this).attr('target', '_blank');
     });
 }

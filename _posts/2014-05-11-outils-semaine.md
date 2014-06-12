@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les outils de la semaine
+title: Les outils de la semaine 8
 categories: [dev]
 tags: [outils, css3, icons, carousel, loader]
 picture: outils-semaine-8.jpg

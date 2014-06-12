@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Les outils de la semaine
+title: Les outils de la semaine 7
+categories: [dev]
 tags: [outils, desktop, app, guide, analytics]
 picture: outils-semaine-7.jpg
 ---
