@@ -20,6 +20,15 @@ tags: [formulaire]
 
 [![Inspirations de la semaine](http://haveidols.com/grabs/Screen%20Shot%202014-06-16%20at%2014.17.17.png)](http://colourity.github.io)
 
+##Float label pattern
+- Pattern qui conciste à conserver (en déplaçant) le placeholder d'un champ
+- Plus ou moins minimaliste suivant le device
+- A combiner
+
+[![Inspirations de la semaine](http://haveidols.com/grabs/Screen%20Shot%202014-06-16%20at%2014.43.34.png)](http://clubdesign.github.io/floatlabels.js)
+
+[![Inspirations de la semaine](http://haveidols.com/grabs/Screen%20Shot%202014-06-16%20at%2014.44.59.png)](http://bradfrostweb.com/blog/post/float-label-pattern)
+
 ##Sentence
 - Le formulaire est une phrase
 
