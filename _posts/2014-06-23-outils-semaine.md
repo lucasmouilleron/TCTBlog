@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Les outils de la semaine 10
+title: Les outils dev de la semaine 10
 categories: [dev]
 tags: [outils, data, browser, parallax, docs]
 ---
