@@ -10,45 +10,45 @@ tags: [timeline]
 - Scroll en analogie au temps qui passe
 - Simplicité de l'idée
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.18.12.png)](http://getgoldee.com)
+[![Get Goldee](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.18.12.png)](http://getgoldee.com)
 
 ##Here is today
 - Echelles et perspecives temporelles
 - Jolis détails
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.21.15.png)](http://hereistoday.com)
+[![Here is today](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.21.15.png)](http://hereistoday.com)
 
 ##Temps et chronologies
 - Pinterest board de timelines
 - Inégal mais riche
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2012.53.05.png)](http://www.pinterest.com/marjolaineblanc/timeline-designs/)
+[![Board Pitnerest Timeline Designs](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2012.53.05.png)](http://www.pinterest.com/marjolaineblanc/timeline-designs/)
 
 ##Google Zeitgeist
 - Multitude
 - Fluidité
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-13%20at%2009.25.10.png)](http://www.google.com/trends/topcharts?zg=full)
+[![Google top charts](http://haveidols.com/grabs/Screen%20Shot%202014-06-13%20at%2009.25.10.png)](http://www.google.com/trends/topcharts?zg=full)
 
 ##Design Week Portland
 - Navigation datée originale
 - Bonne base à enrichir
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2013.05.08.png)](http://www.designweekportland.com/2012#)
+[![Design Week Portland](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2013.05.08.png)](http://www.designweekportland.com/2012#)
 
 ##Zwartwimedia
 - Modification et prolongation de l'identité visuelle
 - Simplicité de l'idée
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.03.57.png)](http://zwartwitmedia.com/2014)
+[![zwartwit media](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.03.57.png)](http://zwartwitmedia.com/2014)
 
 ##How much life
 - Spatialisation des données
 - Pas vraiment temporel mais applicable
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.41.16.png)](http://whitevinyldesign.com/gatesnotes/howmuchlife)
+[![how much life](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.41.16.png)](http://whitevinyldesign.com/gatesnotes/howmuchlife)
 
 ##World food clock
 - Animations et flat design
 
-[![Temps et chronologies](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.37.48.png)](http://worldfoodclock.com)
+[![world food clock](http://haveidols.com/grabs/Screen%20Shot%202014-06-12%20at%2015.37.48.png)](http://worldfoodclock.com)

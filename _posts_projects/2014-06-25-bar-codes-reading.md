@@ -9,7 +9,7 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-06-23%20at%2012.13.37.p
 
 ##Cas d'utilisation
 - Lecture de codes barres de produits sur emballage depuis device mobile
-- Flash de QR Codes
+- Flash de QR Codes depuis un site ou une application
 
 ##Lecture en applications natives
 - Sur iOS, depuis la v7, plus besoin de librairies pour scanner les QR codes et codes barre, [utiliser le framework AVFoundation](http://www.ama-dev.com/iphone-qr-code-library-ios-7)
