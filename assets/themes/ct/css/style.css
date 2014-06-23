@@ -132,6 +132,12 @@ blockquote p {
     width:100%;
 }
 
+.picture-head img{
+    margin:0 auto;
+    display:block;
+    width:100%;
+}
+
 .content-content img {
     margin:0 auto;
     display:block;

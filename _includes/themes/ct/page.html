@@ -3,7 +3,11 @@
 
         {% if page.picture %}
         <div class="picture">
-            <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
+            {% if page.picture contains "http://" %}
+                <img src="{{page.picture}}"/>
+            {% else %}
+                <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
+            {% endif %}
         </div>
         {% endif %}
 
