@@ -24,7 +24,7 @@
     <meta content="{{ site.description }}" property="og:description">
     {% endif %}
     {% if page.url %}
-    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+    <meta content="{{ site.production_url }}{{ page.url }}" property="og:url">
     {% endif %}
     {% if page.date %}
     <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
@@ -33,10 +33,10 @@
     {% if page.picture contains "http://" %}
     <meta content="{{page.picture}}" property="og:image">
     {% else %}
-    <meta content="{{ site.url }}/assets/contentPictures/{{page.picture}}" property="og:image">
+    <meta content="{{ site.production_url }}/assets/contentPictures/{{page.picture}}" property="og:image">
     {% endif %}
     {% else %}
-    <meta content="{{ site.url }}/assets/themes/ct/images/favicon.png" property="og:image">
+    <meta content="{{ site.production_url }}/assets/themes/ct/images/favicon.png" property="og:image">
     {% endif %}
     {% if page.categories %}
     {% for category in page.categories limit:1 %}
