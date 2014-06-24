@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Les outils de la semaine 9
+title: Les outils dev de la semaine 9
 categories: [dev]
 tags: [outils, lib, analytics, events, multi-touch]
+description: "Les outils dev que nous avons croisés dans la semaine"
 picture: outils-semaine-9.jpg
 ---
 {% include JB/setup %}

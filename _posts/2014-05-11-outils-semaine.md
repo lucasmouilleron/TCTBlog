@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Les outils de la semaine 8
+title: Les outils dev de la semaine 8
 categories: [dev]
 tags: [outils, css3, icons, carousel, loader]
 picture: outils-semaine-8.jpg
+description: "Les outils dev que nous avons croisés dans la semaine"
 ---
 {% include JB/setup %}
 

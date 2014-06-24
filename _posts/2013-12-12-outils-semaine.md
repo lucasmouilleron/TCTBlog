@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Les outils de la semaine 3
+title: Les outils dev de la semaine 3
 categories: [dev]
 tags: [outils, lib, js, presentation, css3, input, ux, fun]
 picture: outils-semaine-3.jpg
+description: "Les outils dev que nous avons croisés dans la semaine"
 ---
 {% include JB/setup %}
 

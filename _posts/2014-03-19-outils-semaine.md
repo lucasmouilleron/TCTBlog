@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Les outils de la semaine 7
+title: Les outils dev de la semaine 7
 categories: [dev]
 tags: [outils, desktop, app, guide, analytics]
 picture: outils-semaine-7.jpg
+description: "Les outils dev que nous avons croisés dans la semaine"
 ---
 {% include JB/setup %}
 

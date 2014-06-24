@@ -3,6 +3,7 @@ layout: post
 title: Les outils dev de la semaine 10
 categories: [dev]
 tags: [outils, data, browser, parallax, docs]
+description: "Les outils dev que nous avons croisés dans la semaine"
 ---
 {% include JB/setup %}
 
