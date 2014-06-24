@@ -13,17 +13,11 @@
             {% assign author = site.author.name %}
             {% endif %}
             <div class="author">
-                Par {{ author }}
+                Par {{ author }}, le {{ page.date | date: "%d/%m/%Y" }}
             </div>
         </div>
 
-        <div class="content">
-
-
-            <!--
-            <div class="date">
-                <span>{{ page.date | date_to_long_string }}</span>
-            </div>-->
+        <div class="content">           
 
             {% if page.picture %}
             <div class="picture-head">
