@@ -4,6 +4,7 @@ title: Lecture de codes barres et QR codes
 categories: [dev]
 tags: [qr code, code barre]
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-06-23%20at%2012.13.37.png
+description: Lecture de codes bars et qr codes depuis différents environnements
 ---
 {% include JB/setup %}
 
@@ -24,4 +25,4 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-06-23%20at%2012.13.37.p
 ##Lecture sur le serveur
 - [php-zbarcode](https://github.com/mkoppanen/php-zbarcode) : codes bars, QR codes en PHP
 
-> La lecture sur le serveur peut être une solution pour décoder les codes scannés depuis un device qui ne peut pas le faire (navigateur trop ancien)
+> La lecture sur le serveur peut être une solution pour décoder les codes scannés depuis un device qui ne peut pas le faire (navigateur trop ancien par exemple)

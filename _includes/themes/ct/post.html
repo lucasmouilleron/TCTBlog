@@ -6,14 +6,14 @@
         {% endif %}
 
         <div class="header">
-            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            <a href="{{page.url}}"><h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1></a>
             {% if page.author %}
             {% assign author = page.author %}
             {% else %}
             {% assign author = site.author.name %}
             {% endif %}
             <div class="author">
-                Par {{ author }}, le {{ page.date | date: "%d/%m/%Y" }}
+                By {{ author }}, on the {{ page.date | date: "%d/%m/%Y" }}
             </div>
         </div>
 
@@ -58,15 +58,15 @@
             <div class="pagination">
                 <ul>
                     {% if page.previous %}
-                    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Précédent</a></li>
+                    <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
                     {% else %}
-                    <li class="prev disabled"><a>&larr; Précédent</a></li>
+                    <li class="prev disabled"><a>&larr; Previous</a></li>
                     {% endif %}
                     <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
                     {% if page.next %}
-                    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Suivant &rarr;</a></li>
+                    <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
                     {% else %}
-                    <li class="next disabled"><a>Suivant &rarr;</a>
+                    <li class="next disabled"><a>Next &rarr;</a>
                         {% endif %}
                     </ul>
                 </div>

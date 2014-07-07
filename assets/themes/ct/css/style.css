@@ -1,9 +1,9 @@
 /*//////////////////////////////////////////////////////////////////////////////*/
 body, button, input, select, textarea, li {
-    color: #111;
+    color: #222;
     font-family: "Century Schoolbook", Century, "century_custom", Garamond, serif;
     font-size: 20px;
-    line-height: 1.4em;
+    line-height: 1.5em;
     padding:0;
 }
 
@@ -16,24 +16,26 @@ a, a:visited {
 a:hover {
     color:red;
     text-decoration:none;
-
 }
 
 h1 {
+    color:#111;
     text-transform: uppercase;
-    font-size: 2.7em;
+    font-size: 2.8em;
     text-align: center;
     margin: 1.5em 0 0.4em 0;
     line-height: 1em;
-    font-weight:normal;
+    font-weight:bold;
 }
 
 h2 {
-    margin: 1.5em 0 0.4em 0;
+    font-size:2.3em;
+    margin: 0.8em 0 0.4em 0;
     line-height: 1em;
 }
 
 h3 {
+    font-size:1.7em;
     margin: 0.8em 0 0.4em 0;
     line-height: 1em;
 }
@@ -133,12 +135,12 @@ blockquote p {
 }
 
 .picture-head img, .content-content img {
-    margin:0 auto;
+    margin:1em auto;
     display:block;
     width:100%;
 }
 
-.a-with-img img, .picture-head {
+.a-with-img img, .picture-head img, .content-content img {
     -webkit-box-shadow: 0px 8px 17px 0px rgba(50, 50, 50, 0.35);
     -moz-box-shadow:    0px 8px 17px 0px rgba(50, 50, 50, 0.35);
     box-shadow:         0px 8px 17px 0px rgba(50, 50, 50, 0.35);
@@ -149,9 +151,15 @@ blockquote p {
     display: inline-block;
     z-index:1;
     opacity: 0.9;
+    width:100%;
     transition: .15s ease-in-out;
     -moz-transition: .15s ease-in-out;
     -webkit-transition: .15s ease-in-out;
+    margin:1.2em auto;
+}
+
+.a-with-img img {
+    margin:0em auto;
 }
 
 .a-with-img:hover,.a-with-img:focus,.a-with-img:active {

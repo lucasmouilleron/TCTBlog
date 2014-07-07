@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kindle pour les entreprises
-categories: [reflexion]
+categories: [thoughts]
 tags: [kindle, communication d'entreprise]
 picture: kindle-entreprise.jpg
 ---

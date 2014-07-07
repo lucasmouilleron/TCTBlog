@@ -25,12 +25,12 @@ title: The Creative Technology
         <li class="page">
             {% if paginator.previous_page %}
             {% if paginator.previous_page == 1 %}
-            <a href="{{ HOME_PATH }}">Précédent</a>
+            <a href="{{ HOME_PATH }}">Previous</a>
             {% else %}
-            <a href="{{ paginator.previous_page_path }}">Précédent</a>
+            <a href="{{ paginator.previous_page_path }}">Previous</a>
             {% endif %}
             {% else %}
-            <span class="current-page">Précédent</span>
+            <span class="current-page">Previous</span>
             {% endif %}
         </li>
         
@@ -54,9 +54,9 @@ title: The Creative Technology
 
         <li class="page">
             {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path }}">Suivant</a>
+            <a href="{{ paginator.next_page_path }}">Next</a>
             {% else %}
-            <span class="current-page">Suivant</span>
+            <span class="current-page">Next</span>
             {% endif %}
         </li>
     </ul>

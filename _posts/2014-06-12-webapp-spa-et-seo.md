@@ -1,14 +1,19 @@
 ---
 layout: post
 title: JS et SEO
-categories: [reflexion]
+categories: [thoughts]
 tags: [web app, spa, js, seo]
 picture: webapp-spa-seo.jpg
+description: Etude du SEO dans le cas des sites et web apps JS
 ---
 {% include JB/setup %}
 
 Sans prise de dispositions, un site ou we web app JS est plus moins bien indexé par les moteurs de recherche.
 En fonction du contexte applicatif, des solutions existent optimiser le SEO. Résumé.
+
+> Si Google indexe désormais les webapps JS (cf [l'article de Erik Hendriks et Michael Xu sur le blog Google](http://googlewebmastercentral.blogspot.ca/2014/05/understanding-web-pages-better.html), ce n'est pas encore le cas de Bing et des autres moteurs de recherche. Si en France Google est utilisé par 90% des internautes, il l'est seulement 67% aux U.S. 
+
+> Les techniques abordées ici conservent leur intérêt pédagogique et ont le mérite de proposer de bonnes pratiques.
 
 ##Frameworks MVC et snapshots HTML
 - Mécanique : 
@@ -44,7 +49,9 @@ En fonction du contexte applicatif, des solutions existent optimiser le SEO. Ré
     - [https://github.com/defunkt/jquery-pjax](https://github.com/defunkt/jquery-pjax) : implémentation de progresssive enhancement simplifié
 
 ##Conclusions
+Google se charge maintenant du snapshoting des sites et web apps JS, mais n'est pas le seul moteur de recherche utilisé dans le monde
+
 > Dans le cas d'une *web app très fonctionnelle*, les frameworks MVC comme backbone ou angular sont le meilleur ami du développeur. Si des besoins de SEO sont présents, *le snapshoting est la bonne solution*.
- 
+
 > Dans le cas d'un *site web orienté contenus*, *le progressive enhancement n'est finalement qu'une théorisation des pratiques classiques*. 
 Le progressive enhancement couplé à des frameworks MVC parait quant à lui assez lourd.

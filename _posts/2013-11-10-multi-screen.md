@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Expériences multi screen web
-categories: [reflexion]
+categories: [thoughts]
 tags: [websocket, multi screen, device]
 picture: multi-screen.jpg
 ---
