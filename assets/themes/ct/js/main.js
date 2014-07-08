@@ -59,6 +59,6 @@ function setupLinks() {
 function setupImageRollOvers() {
     $(".content-content a img").parent().addClass("a-with-img");
     $(".content-content a img").each(function() {
-        $(this).after("<div class='hover'><div class='caption'><img src='assets/themes/ct/images/share15.png'/><div>"+$(this).attr("alt")+"</div></div></div>");
+        $(this).after("<div class='hover'><div class='caption'><img src='/assets/themes/ct/images/share15.png'/><div>"+$(this).attr("alt")+"</div></div></div>");
     });
 }

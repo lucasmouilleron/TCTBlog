@@ -11,9 +11,9 @@ author :
 production_url : http://thecreativetechnology.com
 paginate: 10
 excerpt_separator: <!-- more -->
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:categories/:year/:month/:day/:title
 include: [".htaccess"]
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "nbproject"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 safe: false
 markdown: rdiscount
