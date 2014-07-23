@@ -7,7 +7,7 @@ description: "Better stock photos with free or limited commercial use"
 ---
 {% include JB/setup %}
 
-It's been a trendy subject theses past month : killing the bad stock pictures.
+It's been a trendy subject theses past months : killing the bad stock pictures.
 
 We love this idea as much as we hope corporate overexposed excutives will not be replace only by desaturated beardy tatooey macbooky developers :)
 
