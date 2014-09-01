@@ -105,11 +105,9 @@ Dev
     - http://www.site-analyzer.com
     - http://seositecheckup.com
     - http://lafikl.github.io/perfBar/
-- http://lenticular.attasi.com
 - http://cssstats.com/#/site/url/http%253A%252F%252Frprtr.herokuapp.com
 - http://www.similarweb.com/website/diplomatic-cover.com
-- http://mikefowler.me/smallworld.js/ : générateur de petite cartes à partir de fichier geoJSON
-- http://www.svgjs.com/filter
+- http://mikefowler.me/smallworld.js : générateur de petite cartes à partir de fichier geoJSON
 - http://bgrins.github.io/TinyColor/
 - http://sindresorhus.com/screenfull.js
 - http://pushwoosh.com
@@ -117,8 +115,6 @@ Dev
 - test html alignements : https://github.com/mark-rolich/RulersGuides.js
 - https://github.com/visionmedia/debug
 - lib http, pas de dep curl, juste php 5.2 https://github.com/rmccue/Requests
-- http://vdw.github.io/Tabslet
-- http://www.olivermusebrink.de/beta/curvedtext/
 - http://anchorcms.com
 - http://picocms.org
 - http://evasivesoftware.com/prettypress-wordpress-live-preview-plugin/

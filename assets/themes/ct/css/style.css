@@ -350,6 +350,10 @@ nav {
     z-index:999;
 }
 
+nav sup {
+    font-family: arial;
+}
+
 nav ul {
     display: inline-block;
     list-style: none;
@@ -358,13 +362,14 @@ nav ul {
 nav ul li {
     float: left;
     font-size:14px;
+    font-weight: bold;
     position: relative;
-    background: url(../images/diamond.png) 0px 24px no-repeat;
+    background: url(../images/diamond.png) 0px 20px no-repeat;
     margin-bottom:0;
 }
 
 nav ul li.active a {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 nav ul li:first-child {
@@ -374,7 +379,7 @@ nav ul li:first-child {
 nav ul a {
     display: block;
     text-decoration: none;
-    padding: 17px 25px 10px 25px;
+    padding: 12px 25px 8px 25px;
 }
 
 nav li:hover > a {
@@ -385,7 +390,7 @@ nav li:hover > a {
 nav.sticky {
     position:fixed;
     top:0;
-    background-color:#b1e6fd;
+    background-color:#333;
     background-image: url(../images/header.jpg);
     background-position: center top;
     background-size: cover;
