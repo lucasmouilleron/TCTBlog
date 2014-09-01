@@ -11,6 +11,12 @@ It's been a trendy subject theses past months : killing the bad stock pictures.
 
 We love this idea as much as we hope corporate overexposed excutives will not be replace only by desaturated beardy tatooey macbooky developers :)
 
+##The Stocks
+- Meta site
+- 10+ site referenced
+
+[![The Stocks](http://haveidols.com/grabs/Screen%20Shot%202014-08-26%20at%2010.44.19.png)](http://thestocks.im/)
+
 ##ImCreator
 - Free, royalty free for commercial use
 - Categories

@@ -13,6 +13,12 @@ description: "Améliorer et dynamiser la saisie des utilisateurs"
 
 [![Type form](http://haveidols.com/grabs/Screen%20Shot%202014-06-16%20at%2014.16.31.png)](http://www.typeform.com/use-cases#form)
 
+##FullScreenForm
+- Encadrement de la saisie
+- Raccourcis claviers
+[![FullScreenForm](http://haveidols.com/grabs/Screen%20Shot%202014-07-30%20at%2012.29.37.png)](http://tympanus.net/Development/FullscreenForm)
+
+
 ##Progressions
 - Accompagnement pendant la saisie
 - Progression
