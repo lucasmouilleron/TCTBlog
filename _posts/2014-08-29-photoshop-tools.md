@@ -49,4 +49,5 @@ description: "Photoshop web tools"
 [![Velositey](http://haveidols.com/grabs/Screen%20Shot%202014-08-28%20at%2018.09.39.png)](http://dandkagency.com/velositey)
 
 ##Bonus : keyboard shortcuts optimisation
+
 [![keyboard shortcuts optimisation](http://haveidols.com/grabs/Screen%20Shot%202014-08-28%20at%2018.11.32.png)](http://www.dtelepathy.com/blog/design/dream-photoshop-keyboard-shortcuts)

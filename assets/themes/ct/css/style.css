@@ -134,6 +134,10 @@ blockquote p {
     width:100%;
 }
 
+.content-content {
+    margin-bottom: 2em;
+}
+
 .picture-head img, .content-content img {
     margin:1em auto;
     display:block;
@@ -221,7 +225,7 @@ blockquote p {
 
 .tags {
     list-style: none;
-    margin: 3em 0 1em 0;
+    margin: 0em 0 0.5em 0;
     overflow: hidden; 
 }
 
