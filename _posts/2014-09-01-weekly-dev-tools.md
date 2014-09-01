@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Weekly development tools 12
+title: Image filtering in the browser
 categories: [dev]
-tags: [tools, image, video, processing, filters]
-description: "Dev tools we ran accross this week"
+tags: [tools, image, processing, filters]
+description: "Image filtering withing the browser"
 ---
 {% include JB/setup %}
 
@@ -38,11 +38,3 @@ description: "Dev tools we ran accross this week"
 - Browser support : IE9+
 
 [![SVGFilter.js](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2011.35.49.png)](https://github.com/wout/svg.filter.js)
-
-
-##JSFeat
-- JS video processing library
-- Image processing (grayscale, derivatives, box-blur, resample, etc.)
-- Object detection
-
-[![JSFeat](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2011.57.44.png)](https://github.com/inspirit/jsfeat)

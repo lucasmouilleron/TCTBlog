@@ -23,6 +23,7 @@ Inspiration
     - https://github.com/brianchirls/Seriously.js
     - http://www.hmp.is.it/creating-chroma-key-effect-html5-canvas/
     - http://www.php.net/manual/en/imagick.painttransparentimage.php
+    - https://github.com/inspirit/jsfeat
 - Side / overlay menus
     - http://tympanus.net/Development/PerspectivePageViewNavigation/index.html
     - http://tympanus.net/Development/MultiLevelPushMenu/index2.html
