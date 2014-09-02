@@ -3,7 +3,7 @@ layout: post
 title: Image filtering in the browser
 categories: [dev]
 tags: [tools, image, processing, filters]
-description: "Image filtering withing the browser"
+description: "Image filtering within the browser (or node)"
 ---
 {% include JB/setup %}
 

@@ -6,6 +6,10 @@ NEXT WEEK
 
 Thoughts
 ========
+- social sharing :
+    - https://blog.kissmetrics.com/share-on-social-media/ : creating engaging content
+    - https://blog.kissmetrics.com/which-social-accounts-matter/ : choose social network
+    - https://blog.kissmetrics.com/shocking-social-media-facts/
 - social networks hijacking : 
     - http://www.digitalbuzzblog.com/fartbombs-add-fart-sounds-to-youtube-videos/
     - http://www.psfk.com/2014/08/adidas-gaming-instagram-interactive.html#!bLBOyg
@@ -85,6 +89,7 @@ Inspiration
     - http://everconscious.hm.com/butterflydetail : modification “magique” contenu de l’utulisateur via hashtag
     - http://light-and-shadows.com/fr/societe/
     - http://thebuildfilm.com : clean video gallery
+    - http://thecolorsofmotion.com/films : neat animations, data representation
 - Trash
     - http://tobiasahlin.com/spinkit
     - http://www.squarespace.com/?channel=display&subchannel=siteinspire : perspective parallax, menu, 
@@ -106,6 +111,7 @@ Dev
     - http://www.site-analyzer.com
     - http://seositecheckup.com
     - http://lafikl.github.io/perfBar/
+- http://impulse.luster.io/
 - http://cssstats.com/#/site/url/http%253A%252F%252Frprtr.herokuapp.com
 - http://www.similarweb.com/website/diplomatic-cover.com
 - http://mikefowler.me/smallworld.js : générateur de petite cartes à partir de fichier geoJSON
