@@ -56,6 +56,7 @@ Inspiration
     - http://optimo.com/collection
     - http://tympanus.net/Development/ArrowNavigationStyles/
 - Misc UX components :
+    - http://tympanus.net/Development/TabStylesInspiration/
     - http://elrumordelaluz.github.io/csshake : shake
     - http://tympanus.net/Development/NotificationStyles/other-thumbslider.html : notifications
     - http://tympanus.net/Development/SelectInspiration/index.html : select box

@@ -1,4 +1,36 @@
 
+<!-- if home page-->
+{% if page.layout == "post" %}
+<a href="{{page.url}}">
+<div class="post post-list">
+    <div class="header">
+        {% if page.picture %}
+        
+            <div class="picture-head">
+                {% if page.picture contains "http://" %}
+                <img src="{{page.picture}}"/>
+                {% else %}
+                <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
+                {% endif %}
+
+            </div>
+        {% endif %}
+        <div class="content-head">
+            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+            {% if page.author %}
+            {% assign author = page.author %}
+            {% else %}
+            {% assign author = site.author.name %}
+            {% endif %}
+            <div class="author">
+                By {{ author }}, on the {{ page.date | date: "%d/%m/%Y" }}
+            </div>
+        </div>
+    </div>
+</div>
+</a>
+
+{% else %}
 {% if notLastPost %}
 <div class="post">
     {% else %}
@@ -6,7 +38,8 @@
         {% endif %}
 
         <div class="header">
-            <a href="{{page.url}}"><h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1></a>
+
+            <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
             {% if page.author %}
             {% assign author = page.author %}
             {% else %}
@@ -18,16 +51,6 @@
         </div>
 
         <div class="content">           
-
-            {% if page.picture %}
-            <div class="picture-head">
-                {% if page.picture contains "http://" %}
-                <img src="{{page.picture}}"/>
-                {% else %}
-                <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
-                {% endif %}
-            </div>
-            {% endif %}
 
             <div class="content-content">
                 {{ content }}
@@ -79,3 +102,4 @@
         </div>
     </div>
     <div class="clearfix"></div>
+    {% endif %}

@@ -4,6 +4,7 @@ title: Better stock photos
 categories: [inspiration]
 tags: [tools, stock photos, creative commons]
 description: "Better stock photos with free or limited commercial use"
+picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.13.58.png
 ---
 {% include JB/setup %}
 

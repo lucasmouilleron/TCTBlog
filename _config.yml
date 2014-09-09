@@ -9,7 +9,7 @@ author :
   googlePlus: 100374907614763689790
 ################################################################################
 production_url : http://thecreativetechnology.com
-paginate: 10
+paginate: 20
 excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title
 include: [".htaccess"]
@@ -17,6 +17,14 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 safe: false
 markdown: rdiscount
+
+################################################################################
+defaults:
+    scope:
+      path: ""
+      type: post
+    values:
+      is_post: true
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -106,8 +114,8 @@ JB :
   # Settings for all other include helpers can be defined by creating 
   # a hash with key named for the given helper. ex:
   #
-  #pages_list :
-   #   provider : "custom"   
+  pages_list :
+      provider : "custom"   
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:

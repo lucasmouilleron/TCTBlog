@@ -71,10 +71,27 @@
 
         <a href="https://plus.google.com/{{ site.author.googlePlus }}?rel=author" style="display:none">Google Profile</a>
 
+        {% if page.picture %}
+            {% if page.picture contains "http://" %}
+            <header style="background-image:url('{{page.picture}}')">
+            {% else %}
+            <header style="background-image:url('{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}')">
+            {% endif %}
+        {% else %}
         <header>
+        {% endif %}
+
 
             <div class="navWrapper">
-                <nav>
+                {% if page.picture %}
+            {% if page.picture contains "http://" %}
+            <nav data-background="{{page.picture}}">
+            {% else %}
+            <nav data-background="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}">
+            {% endif %}
+        {% else %}
+        <nav>
+        {% endif %}
                     <ul>
                         {% if page.path == "index.html" %}
                         <li class="active"><a href="{{HOME_PATH}}">Home</a></li>
