@@ -4,16 +4,20 @@ title: Tags
 ---
 {% include JB/setup %}
 
-<ul class="tags inline">
-  {% assign tags_list = site.tags %}  
-  {% include JB/tags_list %}
-</ul>
+<div class="tags-list">
+    <ul class="tags inline">
+        <li><i class="icon icon-tags"></i></li>
+      {% assign tags_list = site.tags %}  
+      {% include JB/tags_list %}
+  </ul>
+  <div class="sep"></div>
+</div>
 
 
 {% for tag in site.tags %} 
-  <h2 class="tags" id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
+<h2 class="tags" id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
+<ul>
     {% assign pages_list = tag[1] %}  
     {% include JB/pages_list %}
-  </ul>
+</ul>
 {% endfor %}

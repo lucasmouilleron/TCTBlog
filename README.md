@@ -1,18 +1,16 @@
-TCTBlog
-=======
-
 The Creative Technology Blog
+============================
+
+Dependencies
+------------
+- sudo gem install jekyll
+- sudo gem install rdiscount
 
 Setup
 -----
-thecreativetechnology.com
-- BASE_PATH : false
+- BASE_PATH : http://thecreativetechnology.com
 - production_url : http://thecreativetechnology.com
 - DNS A Record : 
     - thecreativetechnology.com. 204.232.175.78
     - www.thecreativetechnology.com. 204.232.175.78
-- fichier CNAME qui contient thecreativetechnology.com
-
-http://lucasmouilleron.github.io/TCTBlog
-- BASE_PATH : http://lucasmouilleron.github.io/TCTBlog
-- production_url : http://lucasmouilleron.github.io/TCTBlog
+- CNAME file contains thecreativetechnology.com

@@ -8,6 +8,10 @@ body, button, input, select, textarea, li {
 }
 
 /*//////////////////////////////////////////////////////////////////////////////*/
+.sep {
+    clear:both;
+}
+
 a, a:visited {
     color:blue;
     cursor:pointer;
@@ -272,34 +276,45 @@ blockquote p {
     text-align: left;
 }
 
+.icon {
+    position:relative;
+    top:3px;
+    margin-right:4px;
+}
+
+.tags {
+    clear:both;
+}
+
 .tags {
     list-style: none;
     margin: 0em 0 0.5em 0;
-    overflow: hidden; 
 }
 
 .tags li {
-
-    font-size:0.8em;
+    font-size:0.65em;
 }
 
 .tags li i {
     opacity: 0.9; 
+    font-size:0.9em;
 }
+
+.tags-list {
+    margin-bottom: 2em;
+}
+
+.tags {
+    text-transform: capitalize;
+}
+
 
 .tags.inline li {
     float: left; 
 }
 
 .tags a {
-    padding: 3px 6px;
-    margin: 2px;
-    background: #eee;
-    color: #555;
-    border-radius: 3px;
-    text-decoration: none;
-    border: 1px dashed #cccccc; 
-    line-height: 2em;
+    
 }
 
 .tags a span {
@@ -308,13 +323,11 @@ blockquote p {
 }
 
 .tags a:hover {
-    background-color: #e5e5e5; 
+    
 }
 
 .tags a.active {
-    background: #57A957;
-    border: 1px solid #4c964d;
-    color: #FFF; 
+    
 }
 
 .pagination {
