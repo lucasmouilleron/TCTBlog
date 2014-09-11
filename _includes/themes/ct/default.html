@@ -100,6 +100,9 @@
                         {% endif %}
                         {% assign categories_list = site.categories %}  
                         {% include JB/categories_list %}
+                        {% if site.labActivated %}
+                        <li><a href="http://lab.thecreativetechnology.com" target="_new">Lab !</a></li>
+                        {% endif %}
                         <li><a href="http://www.diplomatic-cover.com" target="_new">Diplomatic Cover</a></li>
                     </ul>
                 </nav>

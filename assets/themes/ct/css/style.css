@@ -278,7 +278,7 @@ blockquote p {
 
 .icon {
     position:relative;
-    top:3px;
+    top:0px;
     margin-right:4px;
 }
 
@@ -437,7 +437,7 @@ nav ul li {
     font-size:14px;
     font-weight: bold;
     position: relative;
-    background: url(../images/diamond.png) 0px 20px no-repeat;
+    
     margin-bottom:0;
 }
 
