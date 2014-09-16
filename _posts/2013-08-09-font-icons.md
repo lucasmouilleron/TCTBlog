@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Polices de pictogrammes
-categories: [dev]
+categories: [code]
 tags: [responsive, fonts]
 picture: font-icons.jpg
 ---

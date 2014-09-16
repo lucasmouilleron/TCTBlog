@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils dev de la semaine 1
-categories: [dev]
+categories: [code]
 tags: [outils, lib, js, css3, message, scrolling]
 picture: outils-semaine-1.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"

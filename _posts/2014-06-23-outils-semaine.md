@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils dev de la semaine 10
-categories: [dev]
+categories: [code]
 tags: [outils, data, browser, parallax, docs]
 description: "Les outils dev que nous avons croisés dans la semaine"
 picture : http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.21.49.png

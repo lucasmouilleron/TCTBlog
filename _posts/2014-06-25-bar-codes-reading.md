@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lecture de codes barres et QR codes
-categories: [dev]
+categories: [code]
 tags: [qr code, code barre]
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2014.00.36.png
 description: Lecture de codes bars et qr codes depuis différents environnements

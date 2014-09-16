@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Weekly development tools 12
-categories: [dev]
+categories: [code]
 tags: [tools, ]
 description: "Dev tools we ran accross this week"
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tags de photos sur Instragram
-categories: [dev]
+categories: [code]
 tags: [campagne, hashtag, instagram, social]
 picture: tag-instagram.jpg
 ---

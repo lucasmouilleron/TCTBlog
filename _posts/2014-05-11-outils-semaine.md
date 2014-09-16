@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils dev de la semaine 8
-categories: [dev]
+categories: [code]
 tags: [outils, css3, icons, carousel, loader]
 picture: outils-semaine-8.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"

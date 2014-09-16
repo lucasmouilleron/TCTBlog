@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils dev de la semaine 7
-categories: [dev]
+categories: [code]
 tags: [outils, desktop, app, guide, analytics]
 picture: outils-semaine-7.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"

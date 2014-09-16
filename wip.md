@@ -1,8 +1,8 @@
 NEXT WEEK
 =========
-- inspiration : ux hover
-- inspiration tools : photoshop tools
-- dev : Weekly development tools 12
+- inspiration : 
+- inspiration tools : 
+- dev : Weekly development tools 13
 
 Thoughts
 ========
@@ -20,6 +20,7 @@ Thoughts
     - https://scenttrunk.com/
     - 
 - fallbacking
+- beacons
 
 Inspiration
 ===========
@@ -28,6 +29,9 @@ Inspiration
     - http://www.hmp.is.it/creating-chroma-key-effect-html5-canvas/
     - http://www.php.net/manual/en/imagick.painttransparentimage.php
     - https://github.com/inspirit/jsfeat
+- digital retail
+    - image and bar code scanning : http://catchoom.com/product/cloud-image-recognition-api, https://moodstocks.com
+    - nfc vs ibeacon : http://zugara.com/beacon-vs-nfc-infographic
 - Side / overlay menus
     - http://tympanus.net/Development/PerspectivePageViewNavigation/index.html
     - http://tympanus.net/Development/MultiLevelPushMenu/index2.html
@@ -79,6 +83,7 @@ Inspiration
     - saisie de contenu : http://madebymany.github.io/sir-trevor-js/example.html
 - Sites : 
     - http://flipp.ca
+    - http://www.mcsquares.com/
     - http://spintank.fr : long zoom, marie louise
     - https://mvmt.org/progress : changement couleur menu
     - http://kelseydake.com : roll image
@@ -105,13 +110,18 @@ Inspiration (tools)
 - http://www.thedayscolor.com
 - FramerJS
 
-Dev
-===
+Code
+====
+- Optim :
+    - http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/
+    - http://ianfeather.co.uk/web-fonts-and-the-critical-path/
 - SEO 
     - https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf
     - http://www.site-analyzer.com
     - http://seositecheckup.com
     - http://lafikl.github.io/perfBar/
+- https://github.com/leemunroe/grunt-email-design : grunt email
+- http://alistapart.com/article/application-cache-is-a-douchebag
 - http://impulse.luster.io/
 - http://cssstats.com/#/site/url/http%253A%252F%252Frprtr.herokuapp.com
 - http://www.similarweb.com/website/diplomatic-cover.com

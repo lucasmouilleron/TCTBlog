@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Les outils dev de la semaine 5
-categories: [dev]
+categories: [code]
 tags: [outils, lib, js, background, adaptibilité]
 picture: outils-semaine-5.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"

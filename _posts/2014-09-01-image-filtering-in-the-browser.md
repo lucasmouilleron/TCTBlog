@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Image filtering in the browser
-categories: [dev]
+categories: [code]
 tags: [tools, image, processing, filters]
 description: "Image filtering within the browser (or node)"
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.10.26.png

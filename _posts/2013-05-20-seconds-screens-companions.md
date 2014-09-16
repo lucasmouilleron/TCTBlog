@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Second screens, companions
-categories: [dev]
+categories: [code]
 tags: [compagnon, second screen, ux, xbox]
 picture: secondscreens.jpg
 ---

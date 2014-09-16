@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tests sur plusieurs navigateurs et OS sans machine virtuelle
-categories: [dev]
+categories: [code]
 tags: [virtualisation, navigateurs, tests, cloud]
 picture: browserstack.jpg
 ---
