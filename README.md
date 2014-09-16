@@ -3,8 +3,8 @@ The Creative Technology Blog
 
 Dependencies
 ------------
-- sudo gem install jekyll
-- sudo gem install rdiscount
+- ```sudo gem install jekyll```
+- ```sudo gem install rdiscount```
 
 Setup
 -----
@@ -14,3 +14,7 @@ Setup
     - thecreativetechnology.com. 204.232.175.78
     - www.thecreativetechnology.com. 204.232.175.78
 - CNAME file contains thecreativetechnology.com
+
+Run
+---
+- ```jekyll build --watch```
