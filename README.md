@@ -3,8 +3,7 @@ The Creative Technology Blog
 
 Dependencies
 ------------
-- ```sudo gem install jekyll```
-- ```sudo gem install rdiscount```
+- ```sudo gem install jekyll rdiscount```
 
 Setup
 -----
