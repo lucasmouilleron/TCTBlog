@@ -182,14 +182,14 @@ blockquote p {
 }
 
 .picture-head img {
-   position:absolute;
-   left: -100%;
-   right: -100%;
-   top: -100%;
-   bottom: -100%;
-   margin: auto; 
-   min-height: 100%;
-   min-width: 100%;
+ position:absolute;
+ left: -100%;
+ right: -100%;
+ top: -100%;
+ bottom: -100%;
+ margin: auto; 
+ min-height: 100%;
+ min-width: 100%;
 }
 
 .a-with-img img, .picture-head img, .content-content img {
@@ -354,6 +354,7 @@ header {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
+  background-color:#333;
   display: block;
   padding:4em 0;
   width: 100%;
@@ -512,29 +513,31 @@ code {
     }
 
     header {
-        background-size: cover;
-        background-attachment: auto;
-        background-position: center center;
-        overflow:hidden;
-        word-break:normal;
-    }
 
-    nav ul {
-        width:100%;
-    }
+      background: -webkit-linear-gradient(90deg, #283048 10%, #859398 90%);
+      background:    -moz-linear-gradient(90deg, #283048 10%, #859398 90%);
+      background:     -ms-linear-gradient(90deg, #283048 10%, #859398 90%);
+      background:      -o-linear-gradient(90deg, #283048 10%, #859398 90%);
+      background:         linear-gradient(90deg, #283048 10%, #859398 90%);
 
-    nav ul li {
-        font-size:12px;
-        background: none;
-        clear:both;
-    }
+  }
 
-    header h1 {
-        font-size:2.5em;
-    }
+  nav ul {
+    width:100%;
+}
 
-    nav.sticky {
-        display:none;
-    }
+nav ul li {
+    font-size:12px;
+    background: none;
+    clear:both;
+}
+
+header h1 {
+    font-size:2.5em;
+}
+
+nav.sticky {
+    display:none;
+}
 
 }
