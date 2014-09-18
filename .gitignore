@@ -1,14 +1,55 @@
 _site/*
 _theme_packages/*
+/_maquette
 
-Thumbs.db
-.DS_Store
-
-!.gitkeep
-
+#################################################################################
+# miscs
+#################################################################################
+.sass-cache
+logs
+*.log
+.svn/
 .rbenv-version
 .rvmrc
 
-/nbproject
+#################################################################################
+# node
+#################################################################################
+pids
+*.pid
+*.seed
+coverage
+.grunt
+build/Release
+node_modules
+.lock-wscript
+npm-debug.log
 
-/_maquette
+#################################################################################
+# editors
+#################################################################################
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+sftp-config.json
+nbproject
+
+#################################################################################
+# OSs
+#################################################################################
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+# Thumbnails
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
