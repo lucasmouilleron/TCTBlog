@@ -2,7 +2,7 @@ NEXT WEEK
 =========
 - inspiration : 
 - inspiration tools : 
-- dev : Weekly development tools 13
+- code : Refaire article offline en anglais avec nouvelles datas + localforage, email-builder
 
 Thoughts
 ========
@@ -45,6 +45,7 @@ Inspiration
     - http://codyhouse.co/demo/smart-fixed-navigation/index.html
     - http://mmenu.frebsite.nl/
     - http://jakiestfu.github.io/Snap.js/demo/apps/default.html
+    - http://tympanus.net/Development/OffCanvasMenuEffects/sideslide.html
 - Progress
     - http://tympanus.net/Development/ProgressButtonStyles/
     - http://lab.hakim.se/ladda/
@@ -112,6 +113,9 @@ Inspiration (tools)
 
 Code
 ====
+- Offline : 
+    - http://www.html5rocks.com/en/tutorials/offline/quota-research/?redirect_from_locale=fr
+    - https://github.com/mozilla/localForage, https://github.com/ask11/storage
 - Optim :
     - http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/
     - http://ianfeather.co.uk/web-fonts-and-the-critical-path/
@@ -120,7 +124,12 @@ Code
     - http://www.site-analyzer.com
     - http://seositecheckup.com
     - http://lafikl.github.io/perfBar/
-- https://github.com/leemunroe/grunt-email-design : grunt email
+- CRUD js backend
+    - https://github.com/marmelab/ng-admin (setup in lab, https://console.kinvey.com/environments/kid_W1iX9a2YX)
+    - http://cacodaemon.de/index.php?id=48
+- https://github.com/preziotte/party-mode
+- https://github.com/sindresorhus/is-up
+- https://github.com/ryandrewjohnson/jquery-fblogin/blob/master/README.md
 - http://alistapart.com/article/application-cache-is-a-douchebag
 - http://impulse.luster.io/
 - http://cssstats.com/#/site/url/http%253A%252F%252Frprtr.herokuapp.com
@@ -129,7 +138,6 @@ Code
 - http://bgrins.github.io/TinyColor/
 - http://sindresorhus.com/screenfull.js
 - http://pushwoosh.com
-- https://github.com/mozilla/localForage, https://github.com/ask11/storage
 - test html alignements : https://github.com/mark-rolich/RulersGuides.js
 - https://github.com/visionmedia/debug
 - lib http, pas de dep curl, juste php 5.2 https://github.com/rmccue/Requests
