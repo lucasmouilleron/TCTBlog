@@ -1,8 +1,9 @@
 NEXT WEEK
 =========
-- inspiration : 
-- inspiration tools : 
-- code : Refaire article offline en anglais avec nouvelles datas + localforage, email-builder
+- inspiration : side - overlay menus
+- inspiration tools : framer et lab framerhs
+- thoughts : wep app offline
+- code : email-builder
 
 Thoughts
 ========
@@ -109,7 +110,7 @@ Inspiration (tools)
 ===================
 - http://responsive.is/foodsense.is
 - http://www.thedayscolor.com
-- FramerJS
+- Invision
 
 Code
 ====

@@ -45,7 +45,7 @@ Possibilities and limits varies greatly depending on the user's browser as you c
 
 Thankfully, Mozilla released [localForage](https://github.com/mozilla/localForage) which abstracts IndexDB, WebSQL and localStorage with a common easy to use API.
 
-As of writing, _5Mb can be leverage on mobile devices_ (Safari) and _> 500MB on desktop_ (IE10+).
+As of writing, _5Mb can be leverage on mobile devices_ (Safari) and _> 250MB on desktop_ (IE10+).
 
 #### Management
 App data managed by a backend is generally made available over a _REST API_. The web app, when online, access data via some API routes. 
@@ -54,8 +54,20 @@ Part or all of it is stored (with _localForage_ for example) for later offline u
 
 Some _data syncing_ mechanisms may be implemented, including optimisations (such as version numbers or hashs comparaisons before actual data transfer).
 
+## How to deal with bad browsers ?
+As of writing, IE7 and 8 do not allow offline web app and Safari mobile and IE9 desktop do not allow more than 5MB data storage.
+
+As of writing, these setup are not too bad : 
+
+- Dekstop : IE10+, Firefox, Safari, Chrome, 50MB+ data, 10MB+ assets (css, js)
+- Mobile : Chrome, Firefox : 50 MB data, 10MB assets (css, js)
+
+> For B2B apps, the app can detect bad browsers, forbid using the app and give users Chrome installation link.
+
+> For B2C apps, either limit how much data is stored for offline use (by date, not the images, etc.), either detect bad browser and advise for a better one
 
 ## When not to use web apps ?
+- If native notifications mechanisms are needed (ie. iOS or Android notification bubbles or messages), as a web app cannot yet provide such features
 - If the users will be using IE9- and Safari mobile
 - if offlined data are big, such as videos (as a compromise, videos could be available online only)
 - If the app demands high graphic performances, such as complex and very fluid animations (like for every web project ran in the browser)
