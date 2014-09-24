@@ -19,7 +19,6 @@ Thoughts
     - Mobile experiences (article wired : mobile perception, gps advantage)
 - data improved services :
     - https://scenttrunk.com/
-    - 
 - fallbacking
 - beacons
 
@@ -34,6 +33,7 @@ Inspiration
     - image and bar code scanning : http://catchoom.com/product/cloud-image-recognition-api, https://moodstocks.com
     - nfc vs ibeacon : http://zugara.com/beacon-vs-nfc-infographic
 - Side / overlay menus
+    - https://dev.twitter.com/cards/overview
     - http://tympanus.net/Development/PerspectivePageViewNavigation/index.html
     - http://tympanus.net/Development/MultiLevelPushMenu/index2.html
     - http://tympanus.net/Development/SidebarTransitions

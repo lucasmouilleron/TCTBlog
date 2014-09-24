@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Email builder
+title: Prototyping PSDs
 categories: [code]
 tags: [email, sass]
 description: A grunt based builder for designing, testing and publishing emails.
@@ -19,5 +19,5 @@ A grunt based builder for designing, testing and publishing emails.
 - Services : Mandrill, AWS S3 as CDN
 
 ## Resources
-- [EmailBuilder on the Creative Technology Lab](http://lab.thecreativetechnology.com/projects/emailBuilder)
+- [EmailBuilder on the Creative Technology Lab](http://gitlab.diplomatic-cover.com:9090/lab/emailBuilder/tree/master)
 - [The Creative Technology Lab](http://lab.thecreativetechnology.com)

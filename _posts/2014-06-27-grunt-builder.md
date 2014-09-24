@@ -72,8 +72,6 @@ And because we are a bit smart, here is what we do :
 - If it doesn't, we copy the project build folder in ```/tmp/node_modules/PROJECT_NAME/VERSION_NUMBER``` and perform the ```npm install```
 - In all cases, we copy ```/tmp/node_modules/PROJECT_NAME/VERSION_NUMBER/node_modules``` files in ```/tmp/PROJECT_NAME/build/nodes_modules```
 
-        
-
 ##Builder maintainability and customization
 - The builder is kept in its own repository
 - The configuration is kept in the ```config``` folder of each projects
