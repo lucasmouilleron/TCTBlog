@@ -3,16 +3,17 @@
 <head>
 
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="{{ site.author.name }}">
-
-    <meta content="{{ site.title }}" property="og:site_name">
-    {% if page.title %}
-    <meta content="{{ page.title }}" property="og:title">
+    {% if page.title and page.title != site.title %}
+    <title>{{site.title}} | {{ page.title }}</title>
+    <meta content="{{site.title}} | {{ page.title }}" property="og:title">
     {% else %}
+    <title>{{ site.title }}</title>
     <meta content="{{ site.title }}" property="og:title">
     {% endif %}
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    
+    <meta name="author" content="{{ site.author.name }}">
+    <meta content="{{ site.title }}" property="og:site_name">
     {% if page.title %}
     <meta content="article" property="og:type">
     {% else %}
@@ -72,71 +73,71 @@
         <a href="https://plus.google.com/{{ site.author.googlePlus }}?rel=author" style="display:none">Google Profile</a>
 
         {% if page.picture %}
-            {% if page.picture contains "http://" %}
-            <header style="background-image:url('{{page.picture}}')">
+        {% if page.picture contains "http://" %}
+        <header style="background-image:url('{{page.picture}}')">
             {% else %}
             <header style="background-image:url('{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}')">
-            {% endif %}
-        {% else %}
-        <header>
-        {% endif %}
+                {% endif %}
+                {% else %}
+                <header>
+                    {% endif %}
 
 
-            <div class="navWrapper">
-                {% if page.picture %}
-            {% if page.picture contains "http://" %}
-            <nav data-background="{{page.picture}}">
-            {% else %}
-            <nav data-background="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}">
-            {% endif %}
-        {% else %}
-        <nav>
-        {% endif %}
-                    <ul>
-                        {% if page.path == "index.html" %}
-                        <li class="active"><a href="{{HOME_PATH}}">Home</a></li>
-                        {% else %}
-                        <li><a href="{{HOME_PATH}}">Home</a></li>
-                        {% endif %}
-                        {% assign categories_list = site.categories %}  
-                        {% include JB/categories_list %}
-                        {% if site.labActivated %}
-                        <li><a href="/tags.html">Tags</a></li>
-                        <li><a href="http://lab.thecreativetechnology.com" target="_new">Lab !</a></li>
-                        {% endif %}
-                        <li><a href="http://www.diplomatic-cover.com" target="_new">Diplomatic Cover</a></li>
-                    </ul>
-                </nav>
-            </div>
+                    <div class="navWrapper">
+                        {% if page.picture %}
+                        {% if page.picture contains "http://" %}
+                        <nav data-background="{{page.picture}}">
+                            {% else %}
+                            <nav data-background="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}">
+                                {% endif %}
+                                {% else %}
+                                <nav>
+                                    {% endif %}
+                                    <ul>
+                                        {% if page.path == "index.html" %}
+                                        <li class="active"><a href="{{HOME_PATH}}">Home</a></li>
+                                        {% else %}
+                                        <li><a href="{{HOME_PATH}}">Home</a></li>
+                                        {% endif %}
+                                        {% assign categories_list = site.categories %}  
+                                        {% include JB/categories_list %}
+                                        {% if site.labActivated %}
+                                        <li><a href="/tags.html">Tags</a></li>
+                                        <li><a href="http://lab.thecreativetechnology.com" target="_new">Lab !</a></li>
+                                        {% endif %}
+                                        <li><a href="http://www.diplomatic-cover.com" target="_new">Diplomatic Cover</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
 
-            <h1><a href="{{HOME_PATH}}" title="THE CREATIVE TECHNOLOGY" rel="home">THE CREATIVE<br/>TECHNOLOGY</a></h1>
-            <h2>{{site.tagline}}</h2>
+                            <h1><a href="{{HOME_PATH}}" title="THE CREATIVE TECHNOLOGY" rel="home">THE CREATIVE<br/>TECHNOLOGY</a></h1>
+                            <h2>{{site.tagline}}</h2>
 
-        </header>
+                        </header>
 
-        <div class="container">
+                        <div class="container">
 
 
-            <div class="content">
-                {{ content }}
-            </div>
+                            <div class="content">
+                                {{ content }}
+                            </div>
 
-            <footer>
-                <ul>
-                    <li>&copy; {{site.time | date: '%Y'}} {{site.author.name}}</li>
-                    <li><a href="mailto:{{site.author.email}}">{{site.author.email}}</a></li>
-                    <li>{{site.author.address}}</li>
-                </ul>
-            </footer>
+                            <footer>
+                                <ul>
+                                    <li>&copy; {{site.time | date: '%Y'}} {{site.author.name}}</li>
+                                    <li><a href="mailto:{{site.author.email}}">{{site.author.email}}</a></li>
+                                    <li>{{site.author.address}}</li>
+                                </ul>
+                            </footer>
 
-        </div>
+                        </div>
 
-        {% include JB/analytics %}
+                        {% include JB/analytics %}
 
-        <script src="{{ ASSET_PATH }}/js/vendor/jquery.min.js"></script>
-        <script src="{{ ASSET_PATH }}/js/vendor/waypoints.min.js"></script>
-        <script src="{{ ASSET_PATH }}/js/tools.js"></script>
-        <script src="{{ ASSET_PATH }}/js/main.js"></script>
+                        <script src="{{ ASSET_PATH }}/js/vendor/jquery.min.js"></script>
+                        <script src="{{ ASSET_PATH }}/js/vendor/waypoints.min.js"></script>
+                        <script src="{{ ASSET_PATH }}/js/tools.js"></script>
+                        <script src="{{ ASSET_PATH }}/js/main.js"></script>
 
-    </body>
-    </html>
+                    </body>
+                    </html>
