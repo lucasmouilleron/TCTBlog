@@ -81,8 +81,7 @@
                 {% else %}
                 <header>
                     {% endif %}
-
-
+<div class="logo"><img src="{{ BASE_PATH }}/assets/themes/ct/images/logo-publicis.png"/></div>
                     <div class="navWrapper">
                         {% if page.picture %}
                         {% if page.picture contains "http://" %}
@@ -94,6 +93,7 @@
                                 <nav>
                                     {% endif %}
                                     <ul>
+                                        
                                         {% if page.path == "index.html" %}
                                         <li class="active"><a href="{{HOME_PATH}}">Home</a></li>
                                         {% else %}

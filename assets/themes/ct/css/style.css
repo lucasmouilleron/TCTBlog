@@ -378,6 +378,7 @@ header {
   transition: .15s ease-in-out;
   -moz-transition: .15s ease-in-out;
   -webkit-transition: .15s ease-in-out;
+  text-align:center;
 }
 
 header h1, header h2, header a,header a:visited {
@@ -424,6 +425,19 @@ h2.tags {
 header span {
     font-size:0.7em;
     vertical-align: super;
+}
+
+.logo {
+    position:relative;
+    top:-25px;
+}
+
+.logo img {
+    width:50px;
+}
+
+nav .logo {
+    margin-right:10px;
 }
 
 nav {
@@ -552,5 +566,9 @@ header h1 {
 nav.sticky {
     display:none;
 }
+
+.logo {
+    display:none;
+    }
 
 }
