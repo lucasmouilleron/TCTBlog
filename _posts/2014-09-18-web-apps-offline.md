@@ -6,7 +6,6 @@ tags: [web app, offline, api, html5]
 description: Why and how to implement offline web apps
 picture: webapp-offline.jpg
 ---
-{% include JB/setup %}
 
 ## What is an offline web app ?
 A web app is a _HTML5 / JS / CSS_ software running _within the browser_.
@@ -63,6 +62,8 @@ As of writing, these setup are not too bad :
 - Mobile : Chrome, Firefox : 50 MB data, 10MB assets (css, js)
 
 > For B2B apps, the app can detect bad browsers, forbid using the app and give users Chrome installation link.
+
+<!-- tsk -->
 
 > For B2C apps, either limit how much data is stored for offline use (by date, not the images, etc.), either detect bad browser and advise for a better one
 

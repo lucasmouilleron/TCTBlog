@@ -4,7 +4,6 @@ title: Temps et chronologies
 categories: [inspiration]
 tags: [timeline]
 ---
-{% include JB/setup %}
 
 ##Goldee
 - Scroll en analogie au temps qui passe

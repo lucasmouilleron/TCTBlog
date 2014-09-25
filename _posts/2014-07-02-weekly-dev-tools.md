@@ -6,7 +6,6 @@ tags: [tools, wordpress, carousel, select list, progress bar]
 description: "Dev tools we ran accross this week"
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.19.47.png
 ---
-{% include JB/setup %}
 
 ##Admin Columns
 - Wordpress plugin which allows to customize what columns are shown on the backend

@@ -5,7 +5,6 @@ categories: [code]
 tags: [compagnon, second screen, ux, xbox]
 picture: secondscreens.jpg
 ---
-{% include JB/setup %}
 
 Les “second screens” définissent les devices (smartphone, tablette) qui proposent à l’utilisateur une expérience enrichie et des contenus additionnels associés à une première expérience “maître” (émission de télé, jeu vidéo, média center, etc.)
 

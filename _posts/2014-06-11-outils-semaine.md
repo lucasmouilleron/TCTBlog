@@ -6,7 +6,6 @@ tags: [outils, lib, analytics, events, multi-touch]
 description: "Les outils dev que nous avons croisés dans la semaine"
 picture: outils-semaine-9.jpg
 ---
-{% include JB/setup %}
 
 ##Flare.js
 - [https://github.com/toddmotto/flare](https://github.com/toddmotto/flare)

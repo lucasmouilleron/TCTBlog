@@ -6,7 +6,6 @@ tags: [photoshop, tools]
 description: "Photoshop web tools"
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.24.30.png
 ---
-{% include JB/setup %}
 
 ##Gridpak
 - Guides generator

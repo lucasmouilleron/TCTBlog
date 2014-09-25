@@ -5,7 +5,6 @@ categories: [code]
 tags: [virtualisation, navigateurs, tests, cloud]
 picture: browserstack.jpg
 ---
-{% include JB/setup %}
 
 BrowserStack est un service qui premet de tester des sites internets sur plusieurs navigateurs et OS.
 

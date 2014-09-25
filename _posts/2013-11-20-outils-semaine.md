@@ -6,7 +6,6 @@ tags: [outils, lib, js, css3, message, scrolling]
 picture: outils-semaine-1.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##Messenger :
 - [http://github.hubspot.com/messenger/docs/welcome](http://github.hubspot.com/messenger/docs/welcome)

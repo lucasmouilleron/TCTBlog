@@ -6,7 +6,6 @@ tags: [outils, lib, js, email, css3]
 picture: outils-semaine-2.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##Mandrill :
 - [http://mandrill.com](http://mandrill.com)

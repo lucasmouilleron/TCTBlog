@@ -8,15 +8,10 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-22%20at%2013.42.16.p
 ---
 {% include JB/setup %}
 
-A grunt based builder for designing, testing and publishing emails.
 
-## Features
-- Assisted building
-- Multiple campaigns and email
-- Stack : Saas, handlebars, CDN
-- Templates : Ink from Zurb, Mailchimp blueprints, Mailgun transactional emails
-- Tests : email, litmus
-- Services : Mandrill, AWS S3 as CDN
+http://invis.io/R61EYKU7S
+http://lab.thecreativetechnology.com/projects/testFramerJS
+
 
 ## Resources
 - [EmailBuilder on the Creative Technology Lab](http://gitlab.diplomatic-cover.com:9090/lab/emailBuilder/tree/master)

@@ -5,7 +5,6 @@ categories: [code]
 tags: [campagne, hashtag, instagram, social]
 picture: tag-instagram.jpg
 ---
-{% include JB/setup %}
 
 Il est désormais possible de tagger des utilisateurs dans des photos Instagram.
 

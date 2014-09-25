@@ -5,7 +5,6 @@ categories: [code]
 tags: [responsive, fonts]
 picture: font-icons.jpg
 ---
-{% include JB/setup %}
 
 **Si la gestion des pictogrammes d'un site web était déjà une problématique** (transparence sur vieux navigateurs, optimisation du nombre de requêtes via sprite sheets css, plusieurs versions par taille, etc.), les écrans à haute densité à la Rétina d'Apple confirment **la nécessité d'une solution cross-browser, cross-scale, et optimisée pour le réseau.**
 

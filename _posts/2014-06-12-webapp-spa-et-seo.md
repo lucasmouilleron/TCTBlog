@@ -6,7 +6,6 @@ tags: [web app, spa, js, seo]
 picture: webapp-spa-seo.jpg
 description: Etude du SEO dans le cas des sites et web apps JS
 ---
-{% include JB/setup %}
 
 Sans prise de dispositions, un site ou we web app JS est plus moins bien indexé par les moteurs de recherche.
 En fonction du contexte applicatif, des solutions existent optimiser le SEO. Résumé.

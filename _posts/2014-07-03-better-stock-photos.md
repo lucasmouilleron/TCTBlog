@@ -6,7 +6,6 @@ tags: [tools, stock photos, creative commons]
 description: "Better stock photos with free or limited commercial use"
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.13.58.png
 ---
-{% include JB/setup %}
 
 It's been a trendy subject theses past months : killing the bad stock pictures.
 

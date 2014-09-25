@@ -6,7 +6,6 @@ tags: [qr code, code barre]
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2014.00.36.png
 description: Lecture de codes bars et qr codes depuis différents environnements
 ---
-{% include JB/setup %}
 
 ##Cas d'utilisation
 - Lecture de codes barres de produits sur emballage depuis device mobile

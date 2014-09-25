@@ -6,7 +6,6 @@ tags: [outils, lib, js, background, adaptibilité]
 picture: outils-semaine-5.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##ColorThief.js
 - [http://lokeshdhakar.com/projects/color-thief](http://lokeshdhakar.com/projects/color-thief)

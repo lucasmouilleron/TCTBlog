@@ -5,7 +5,6 @@ categories: [code]
 tags: [social]
 picture: social-tags.jpg
 ---
-{% include JB/setup %}
 
 L'apparence des contenus partageables et partagés sur les réseaux sociaux peut être contrôlée par leurs auteurs.
 

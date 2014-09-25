@@ -6,7 +6,6 @@ tags: [grunt, build]
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-06-25%20at%2011.28.32.png
 description: Concepts and main tasks of our project builder we use at Diplomatic Cover
 ---
-{% include JB/setup %}
 
 Here at Diplomatic Cover, we want our webapps and websites to be _tested_, _optimzed_ and _maintainable_.
 

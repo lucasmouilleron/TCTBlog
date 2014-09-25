@@ -6,7 +6,6 @@ tags: [outils, lib, js, background, adaptibilité]
 picture: outils-semaine-6.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 
 ##CollagePlus

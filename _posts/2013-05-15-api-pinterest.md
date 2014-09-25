@@ -5,7 +5,6 @@ categories: [code]
 tags: [api, pinterest, social]
 picture: api-pinterest.jpg
 ---
-{% include JB/setup %}
 
 Pinterest ne propose toujours d’API officielle.
 

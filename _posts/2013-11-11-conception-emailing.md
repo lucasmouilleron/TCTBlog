@@ -5,7 +5,6 @@ categories: [thoughts]
 tags: [emailing, conception]
 picture: emailing.jpg
 ---
-{% include JB/setup %}
 
 ##L'ambition
 Pour délivrer son message à son audience, un emailing doit d'abord arriver dans la boîte mail des destinatires, ne pas être détecté comme spam, s'afficher correctement sur la multitude des clients mails (outlook, gmail, apple mail, lotus, etc.) et correspondre aux usages des utilisateurs.

@@ -5,7 +5,6 @@ categories: [thoughts]
 tags: [websocket, multi screen, device]
 picture: multi-screen.jpg
 ---
-{% include JB/setup %}
 
 Une application intéressante pour le web des technologies temps réel bidirectionnelles est l'expérience multi screen : contrôler un site ou une webapp avec son téléphone.
 L'utilisation du GPS, de l'accéléromètre et de l'écran tactile permet de proposer au visiteur une expérience sensorielle inaccessible avec un ordinateur.

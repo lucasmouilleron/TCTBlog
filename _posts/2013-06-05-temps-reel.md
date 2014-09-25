@@ -5,7 +5,6 @@ categories: [thoughts]
 tags: [webapp, temps réel, websocket]
 picture: realtime.jpg
 ---
-{% include JB/setup %}
 
 La technologie WebSocket permet la communication en flux bi-directionnel entre un client et un serveur.
 Elle s'applique particulièrement aux sites webs et web apps.

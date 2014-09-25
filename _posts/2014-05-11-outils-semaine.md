@@ -6,7 +6,6 @@ tags: [outils, css3, icons, carousel, loader]
 picture: outils-semaine-8.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##ScrollRevealJS
 - [http://scrollrevealjs.org](http://scrollrevealjs.org)

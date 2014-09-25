@@ -6,7 +6,6 @@ tags: [outils, lib, js, presentation, css3, input, ux, fun]
 picture: outils-semaine-3.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##Placehold.it
 - [http://placehold.it](http://placehold.it)

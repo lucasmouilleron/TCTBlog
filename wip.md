@@ -1,9 +1,9 @@
 NEXT WEEK
 =========
 - inspiration : side - overlay menus
-- inspiration tools : framer et lab framerhs
-- thoughts : wep app offline
-- code : email-builder
+- inspiration tools : prototyping psds (framerjs + invisiont)
+- thoughts : wep app offline (done)
+- code : email-builder (done), dev tools
 
 Thoughts
 ========

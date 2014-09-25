@@ -5,7 +5,6 @@ categories: [inspiration]
 tags: [formulaire]
 description: "Améliorer et dynamiser la saisie des utilisateurs"
 ---
-{% include JB/setup %}
 
 ##Typeform
 - Encadrement de la saisie

@@ -6,7 +6,6 @@ tags: [outils, lib, js, documentation, grille, input, physics]
 picture: outils-semaine-4.jpg
 description: "Les outils dev que nous avons croisés dans la semaine"
 ---
-{% include JB/setup %}
 
 ##Chardin.js
 - [https://github.com/heelhook/chardin.js](https://github.com/heelhook/chardin.js)

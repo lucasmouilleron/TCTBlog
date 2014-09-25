@@ -5,7 +5,6 @@ categories: [thoughts]
 tags: [kindle, communication d'entreprise]
 picture: kindle-entreprise.jpg
 ---
-{% include JB/setup %}
 
 La plateforme Kindle est une oportunité pour les entrerpises qui souhaitent diffuser leurs publications.
 

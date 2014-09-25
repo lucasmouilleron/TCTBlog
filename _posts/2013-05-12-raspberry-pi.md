@@ -5,7 +5,6 @@ categories: [code]
 tags: [digital IRL, raspberry]
 picture: raspberry-pi.jpg
 ---
-{% include JB/setup %}
 
 Raspberry PI est un ordinateur ultra compact et ultra abordable.
 
