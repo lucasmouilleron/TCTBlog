@@ -55,6 +55,12 @@ Part or all of it is stored (with _localForage_ for example) for later offline u
 
 Some _data syncing_ mechanisms may be implemented, including optimisations (such as version numbers or hashs comparaisons before actual data transfer).
 
+#### Image management
+
+ - Download from the server binary images and store them as binary objects. When retrieving them, `Blob` and `window.URL.createObjectURL` are used to pass it to a dom image tag. Work for modern browsers and IE10+.
+- Or download from the server binay images and store them as base64 objects (with `Canvas`). Work for modern browsers and IE9+.
+- Or download preprocessed base64 images from the server. Work for modern browsers and IE8+.
+
 ## How to deal with bad browsers ?
 As of writing, IE7 and 8 do not allow offline web app and Safari mobile and IE9 desktop do not allow more than 5MB data storage.
 
