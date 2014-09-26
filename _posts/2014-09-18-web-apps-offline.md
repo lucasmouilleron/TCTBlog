@@ -44,7 +44,8 @@ Possibilities and limits varies greatly depending on the user's browser as you c
 
 Thankfully, Mozilla released [localForage](https://github.com/mozilla/localForage) which abstracts IndexDB, WebSQL and localStorage with a common easy to use API.
 
-As of writing, _5Mb can be leverage on mobile devices_ (Safari) and _> 250MB on desktop_ (IE10+).
+As of writing, _5MB can be leveraged on mobile devices_ (Safari) and _> 250MB on desktop_ (IE10+).
+If excluding Safari mobile, _50MB can be leveraged on mobile devices_.
 
 #### Management
 App data managed by a backend is generally made available over a _REST API_. The web app, when online, access data via some API routes. 
