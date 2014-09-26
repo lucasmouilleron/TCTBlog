@@ -31,7 +31,7 @@ The browser then allows to access the web app even if the device is not connecte
 The manifest file contains a list of assets that need to be stored for offline usage.
 This file typically contains the required CSS, JS and images file of the app.
 
-The app cache storage size depends on browsers. As of writing, a safe bet is _10MB for mobile_ (Safari) devices and _> 200MB for desktop_ (IE10+).
+The app cache storage size depends on browsers. As of writing, a safe bet is _10MB for mobile_ (Safari) devices and _200MB+ for desktop_ (IE10+).
 
 Note as well some precautions need to be taken when working with [this capricious manifest file](http://alistapart.com/article/application-cache-is-a-douchebag).
 
@@ -44,7 +44,7 @@ Possibilities and limits varies greatly depending on the user's browser as you c
 
 Thankfully, Mozilla released [localForage](https://github.com/mozilla/localForage) which abstracts IndexDB, WebSQL and localStorage with a common easy to use API.
 
-As of writing, _5MB can be leveraged on mobile devices_ (Safari) and _> 250MB on desktop_ (IE10+).
+As of writing, _5MB can be leveraged on mobile devices_ (Safari) and _250MB+ on desktop_ (IE10+).
 If excluding Safari mobile, _50MB can be leveraged on mobile devices_.
 
 #### Management
