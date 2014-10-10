@@ -7,6 +7,8 @@ description: "Photoshop web tools"
 picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.24.30.png
 ---
 
+Check our lab project with all these references and more on [http://lab.thecreativetechnology.com/projects/photoshopTools](http://lab.thecreativetechnology.com/projects/photoshopTools)
+
 ##Gridpak
 - Guides generator
 - Easy configuration (breakpoints, columns and padding)
