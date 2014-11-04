@@ -62,6 +62,7 @@ Inspiration
     - http://optimo.com/collection
     - http://tympanus.net/Development/ArrowNavigationStyles/
 - Misc UX components :
+    - http://tympanus.net/Development/HoverEffectIdeas/
     - http://aerolab.github.io/midnight.js
     - http://tympanus.net/Development/TabStylesInspiration/
     - http://elrumordelaluz.github.io/csshake : shake
