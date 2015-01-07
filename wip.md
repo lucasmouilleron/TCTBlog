@@ -1,9 +1,9 @@
 NEXT WEEK
 =========
-- inspiration : side - overlay menus
-- inspiration tools : prototyping psds (done)
-- thoughts : wep app offline (done)
-- code : email-builder (done), dev tools
+- inspiration : side - overlay menus, green screen
+- inspiration tools : 
+- thoughts : 
+- code : dev tools
 
 Thoughts
 ========
@@ -37,7 +37,6 @@ Inspiration
     - http://tympanus.net/Development/PerspectivePageViewNavigation/index.html
     - http://tympanus.net/Development/MultiLevelPushMenu/index2.html
     - http://tympanus.net/Development/SidebarTransitions
-    - http://www.similarweb.com/website/diplomatic-cover.com : menu
     - http://purplerockscissors.com : menu
     - http://thenounproject.com : double menu
     - http://tympanus.net/Development/FullscreenOverlayStyles/index.html
@@ -62,6 +61,7 @@ Inspiration
     - http://optimo.com/collection
     - http://tympanus.net/Development/ArrowNavigationStyles/
 - Misc UX components :
+    - https://github.com/zzarcon/focusable
     - http://tympanus.net/Development/HoverEffectIdeas/
     - http://aerolab.github.io/midnight.js
     - http://tympanus.net/Development/TabStylesInspiration/
@@ -110,15 +110,13 @@ Inspiration
 
 Inspiration (tools)
 ===================
+- http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
+- http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
 - http://responsive.is/foodsense.is
 - http://www.thedayscolor.com
-- Invision
 
 Code
 ====
-- Offline : 
-    - http://www.html5rocks.com/en/tutorials/offline/quota-research/?redirect_from_locale=fr
-    - https://github.com/mozilla/localForage, https://github.com/ask11/storage
 - Optim :
     - http://www.smashingmagazine.com/2014/09/08/improving-smashing-magazine-performance-case-study/
     - http://ianfeather.co.uk/web-fonts-and-the-critical-path/
@@ -130,31 +128,26 @@ Code
 - CRUD js backend
     - https://github.com/marmelab/ng-admin (setup in lab, https://console.kinvey.com/environments/kid_W1iX9a2YX)
     - http://cacodaemon.de/index.php?id=48
-- https://github.com/zzmp/juliusjs
-- http://wooorm.github.io/franc/
-- dhttps://github.com/yahoo/gifshot/blob/master/README.md
-- http://alvarotrigo.com/pagePiling/
-- http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions
-- http://www.luster.io/blog/9-29-14-mobile-web-checklist.html
+- https://www.pushwoosh.com/programming-push-notification/safari/safari-website-notifications/
+
+- https://github.com/yahoo/gifshot/blob/master/README.md
 - https://github.com/preziotte/party-mode
 - https://github.com/sindresorhus/is-up
 - https://github.com/ryandrewjohnson/jquery-fblogin/blob/master/README.md
 - http://alistapart.com/article/application-cache-is-a-douchebag
-- http://impulse.luster.io/
 - http://cssstats.com/#/site/url/http%253A%252F%252Frprtr.herokuapp.com
 - http://www.similarweb.com/website/diplomatic-cover.com
 - http://mikefowler.me/smallworld.js : générateur de petite cartes à partir de fichier geoJSON
 - http://bgrins.github.io/TinyColor/
 - http://sindresorhus.com/screenfull.js
 - http://pushwoosh.com
-- test html alignements : https://github.com/mark-rolich/RulersGuides.js
-- https://github.com/visionmedia/debug
 - lib http, pas de dep curl, juste php 5.2 https://github.com/rmccue/Requests
-- http://anchorcms.com
-- http://picocms.org
 - http://evasivesoftware.com/prettypress-wordpress-live-preview-plugin/
 - sauce labs
     - https://saucelabs.com/features
     - https://saucelabs.com/builder
 - trash
     - text sculpting : http://matt.might.net/articles/sculpting-text
+    - https://github.com/zzmp/juliusjs
+    - http://anchorcms.com
+    - test html alignements : https://github.com/mark-rolich/RulersGuides.js
