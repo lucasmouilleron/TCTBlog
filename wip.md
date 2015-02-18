@@ -1,7 +1,7 @@
 NEXT WEEK
 =========
-- inspiration : side - overlay menus, green screen
-- inspiration tools : 
+- inspiration : side - overlay menus
+- inspiration tools : tintup
 - thoughts : 
 - code : dev tools
 
@@ -29,23 +29,10 @@ Inspiration
     - http://www.hmp.is.it/creating-chroma-key-effect-html5-canvas/
     - http://www.php.net/manual/en/imagick.painttransparentimage.php
     - https://github.com/inspirit/jsfeat
+- image processing : 
+    - http://picsvg.com
 - digital retail
     - image and bar code scanning : http://catchoom.com/product/cloud-image-recognition-api, https://moodstocks.com
-    - nfc vs ibeacon : http://zugara.com/beacon-vs-nfc-infographic
-- Side / overlay menus
-    - https://dev.twitter.com/cards/overview
-    - http://tympanus.net/Development/PerspectivePageViewNavigation/index.html
-    - http://tympanus.net/Development/MultiLevelPushMenu/index2.html
-    - http://tympanus.net/Development/SidebarTransitions
-    - http://purplerockscissors.com : menu
-    - http://thenounproject.com : double menu
-    - http://tympanus.net/Development/FullscreenOverlayStyles/index.html
-    - http://www.electrik.co : sidebar menu
-    - http://optimo.com/collection : changement de couleur
-    - http://codyhouse.co/demo/smart-fixed-navigation/index.html
-    - http://mmenu.frebsite.nl/
-    - http://jakiestfu.github.io/Snap.js/demo/apps/default.html
-    - http://tympanus.net/Development/OffCanvasMenuEffects/sideslide.html
 - Progress
     - http://tympanus.net/Development/ProgressButtonStyles/
     - http://lab.hakim.se/ladda/

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Weekly development tools 12
+title: Weekly development tools 13
 categories: [code]
-tags: [tools, ]
+tags: [tools, text, gyro]
 description: "Dev tools we ran accross this week"
+picture: http://haveidols.com/grabs/Screen%20Shot%202015-01-07%20at%2017.33.42.png
 ---
 {% include JB/setup %}
 
