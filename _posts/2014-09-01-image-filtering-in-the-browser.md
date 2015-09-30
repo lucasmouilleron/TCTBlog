@@ -4,7 +4,7 @@ title: Image filtering in the browser
 categories: [code]
 tags: [tools, image, processing, filters]
 description: "Image filtering within the browser (or node)"
-picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.10.26.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-09%20at%2012.10.26.png
 ---
 
 ##CamanJS
@@ -14,7 +14,7 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.10.26.p
 - Apply filters from JS or from the DOM with ```data-caman``` attributes
 - Browser support : IE9+
 
-[![CamanJS](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2011.59.43.png)](http://camanjs.com/examples)
+[![CamanJS](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-01%20at%2011.59.43.png)](http://camanjs.com/examples)
 
 ##Filtrr
 - JS image manipulation library 
@@ -22,14 +22,14 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.10.26.p
 - Layers, export, custom effects, events
 - Browser support : IE9+
 
-[![Filtrr](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2012.09.20.png)](http://alexmic.net/filtrr)
+[![Filtrr](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-01%20at%2012.09.20.png)](http://alexmic.net/filtrr)
 
 ##VintageJS
 - JQuery or vanilla JS image manipulation library
 - Brightness, sepia, saturation, blur, contrast, etc.
 - Browser support : IE9+
 
-[![VintageJS](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2012.07.18.png)](http://rendro.github.io/vintageJS)
+[![VintageJS](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-01%20at%2012.07.18.png)](http://rendro.github.io/vintageJS)
 
 ##SVGFilter.js
 - JS image manipulaiton library built on top of svg.js
@@ -37,4 +37,4 @@ picture: http://haveidols.com/grabs/Screen%20Shot%202014-09-09%20at%2012.10.26.p
 - Animate effects
 - Browser support : IE9+
 
-[![SVGFilter.js](http://haveidols.com/grabs/Screen%20Shot%202014-09-01%20at%2011.35.49.png)](https://github.com/wout/svg.filter.js)
+[![SVGFilter.js](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-01%20at%2011.35.49.png)](https://github.com/wout/svg.filter.js)

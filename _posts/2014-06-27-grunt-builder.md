@@ -3,7 +3,7 @@ layout: post
 title: Diplomatic Cover project builder
 categories: [code]
 tags: [grunt, build]
-picture: http://haveidols.com/grabs/Screen%20Shot%202014-06-25%20at%2011.28.32.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-06-25%20at%2011.28.32.png
 description: Concepts and main tasks of our project builder we use at Diplomatic Cover
 ---
 

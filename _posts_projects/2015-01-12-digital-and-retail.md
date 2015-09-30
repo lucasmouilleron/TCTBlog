@@ -4,7 +4,7 @@ title: Pico CMS
 categories: [code]
 tags: [tools, cms]
 description: "Pico CMS, A very simple CMS"
-picture: http://haveidols.com/grabs/Screen%20Shot%202015-01-07%20at%2017.15.41.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-01-07%20at%2017.15.41.png
 ---
 {% include JB/setup %}
 

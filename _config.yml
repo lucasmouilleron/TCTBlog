@@ -15,7 +15,7 @@ excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title
 include: [".htaccess"]
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: true
+highlighter: pygments
 safe: false
 markdown: rdiscount
 
