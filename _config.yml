@@ -9,7 +9,7 @@ author :
   googlePlus: 100374907614763689790
 labActivated : true
 ################################################################################
-production_url : http://thecreativetechnology.com
+production_url : http://thecreativetechnology.lucasmouilleron.com
 paginate: 20
 excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title
@@ -56,7 +56,7 @@ JB :
   #     This means always setting the protocol (http|https) or prefixing with "/"
   #BASE_PATH : false
   #BASE_PATH : http://lucasmouilleron.github.io/TCTBlog
-  BASE_PATH : http://thecreativetechnology.com
+  BASE_PATH : http://thecreativetechnology.lucasmouilleron.com
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
