@@ -1,12 +1,10 @@
 RewriteEngine On
-#ErrorDocument 404 /404.html
-#RewriteCond %{HTTP_HOST} ^[^\.]+\.thecreativetechnology\.com$ [NC]
-#RewriteRule ^(.*)$ http://thecreativetechnology.com/$1 [R=301,L]
 
+ErrorDocument 404 /404.html
 
-#RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /.+\.html\ HTTP
-#RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /.+\.html\ HTTP
-#RewriteRule ^(.+)\.html$ http://%{HTTP_HOST}/$1 [R=301,L]
+RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /.+\.html\ HTTP
+RewriteRule ^(.+)\.html$ http://%{HTTP_HOST}/$1 [R=301,L]
 
-#RewriteCond %{THE_REQUEST} ^(GET|HEAD)\ /.+\.html\ HTTP
-#RewriteRule ^(.+)\.html$ $1 [R=301,L,QSA]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^.+$ %{REQUEST_FILENAME}.html [L]

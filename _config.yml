@@ -1,15 +1,16 @@
 ################################################################################
 title : The Creative Technology
-tagline: Digital wanderings @ Diplomatic Cover
-description : "This blog is the product of our digital researchs and wanderings, here at Diplomatic Cover. We love new digital technologies with big impacts."
+tagline: Digital wanderings @ Publicis
+description : "This blog was the product of our digital researchs and wanderings, here at Publicis. We love new digital technologies with big impacts."
 author :
   name : Lucas Mouilleron, Creative Technologist
-  email : lucas.mouilleron@diplomatic-cover.com
-  address : Diplomatic Cover, 22 rue Seguin, 69002 Lyon, France
+  email : lucas.mouilleron@me.com
+  address : http://lucasmouilleron.com
   googlePlus: 100374907614763689790
 labActivated : true
 ################################################################################
 production_url : http://thecreativetechnology.lucasmouilleron.com
+gems: [jekyll-paginate]
 paginate: 20
 excerpt_separator: <!-- more -->
 permalink: /:categories/:year/:month/:day/:title

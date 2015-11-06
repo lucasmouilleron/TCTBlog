@@ -1,0 +1,49 @@
+<div class="post post-list">
+
+    <div class="header">
+        <a href="{{page.url}}">
+            {% if page.picture %}
+
+            <div class="picture-head">
+                {% if page.picture contains "http://" %}
+                <img src="{{page.picture}}"/>
+                {% else %}
+                <img src="{{ BASE_PATH }}/assets/contentPictures/{{page.picture}}"/>
+                {% endif %}
+
+            </div>
+            {% endif %}
+            <div class="content-head">
+                <h1>{{ page.title }} {% if page.tagline %}
+                    <small>{{page.tagline}}</small>
+                    {% endif %}
+                </h1>
+                {% if page.author %}
+                {% assign author = page.author %}
+                {% else %}
+                {% assign author = site.author.name %}
+                {% endif %}
+                <div class="author">
+                    By {{ author }}, on the {{ page.date | date: "%d/%m/%Y" }}
+                </div>
+
+            </div>
+        </a>
+        {% unless page.categories == empty %}
+        <ul class="tags inline">
+            <li><i class="icon icon-folder-open"></i></li>
+            {% assign categories_list = page.categories %}
+            {% include JB/categories_list %}
+        </ul>
+        <div class="sep"></div>
+        {% endunless %}
+        {% unless page.tags == empty %}
+        <ul class="tags inline">
+            <li><i class="icon icon-tags"></i></li>
+            {% assign tags_list = page.tags %}
+            {% include JB/tags_list %}
+        </ul>
+        <div class="sep"></div>
+        {% endunless %}
+    </div>
+</div>

@@ -5,15 +5,16 @@ Install
 -------
 - `sudo gem install jekyll`
 - `sudo gem install jekyll rdiscount`
+- `sudo gem install jekyll-pagination`
 
 Setup
 -----
-- BASE_PATH : http://thecreativetechnology.com
-- production_url : http://thecreativetechnology.com
+- BASE_PATH : http://thecreativetechnology.lucasmouilleron.com
+- production_url : http://thecreativetechnology.lucasmouilleron.com
 - DNS A Record : 
-    - thecreativetechnology.com. 204.232.175.78
-    - www.thecreativetechnology.com. 204.232.175.78
-- CNAME file contains thecreativetechnology.com
+    - thecreativetechnology.lucasmouilleron.com. 149.202.55.109
+    - thecreativetechnology.lucasmouilleron.com. 149.202.55.109
+- CNAME file contains thecreativetechnology.lucasmouilleron.com
 
 Run
 ---

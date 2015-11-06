@@ -4,7 +4,7 @@ title: Social walls
 categories: [inspiration]
 tags: [social, walls]
 description: "Social Walls"
-picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-02-18%20at%2011.25.14.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2010.03.25.png
 ---
 
 __Social walls__ are geat, but they are __annoying to maintain and retweak__ for clients.

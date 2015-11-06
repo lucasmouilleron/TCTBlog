@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digital publications
-categories: [Inspiration]
+categories: [inspiration]
 tags: [magazine, publishing]
 description: Digital magazine publishing
 picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.02.03.png
