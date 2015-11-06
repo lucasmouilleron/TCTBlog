@@ -131,7 +131,7 @@ blockquote p {
 
 .post .header {
     padding-bottom:1em;
-    border-bottom:1px solid #bbb;
+    border-bottom:0px solid #eee;
     margin-bottom:2em;
 }
 

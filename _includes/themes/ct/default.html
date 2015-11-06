@@ -107,7 +107,7 @@
                                 <li><a href="/tags.html">Tags</a></li>
                                 <li><a href="http://code.lucasmouilleron.com" target="_new">Code !</a></li>
                                 {% endif %}
-                                <li><a href="http://www.lucasmouilleron.com" target="_new">lucasmouilleron.com</a></li>
+                                <li><a href="{{site.author.address}}" target="_new">lucasmouilleron.com</a></li>
                             </ul>
                         </nav>
             </div>
@@ -128,7 +128,6 @@
             <footer>
                 <ul>
                     <li>&copy; {{site.time | date: '%Y'}} {{site.author.name}}</li>
-                    <li><a href="mailto:{{site.author.email}}">{{site.author.email}}</a></li>
                     <li><a href="{{site.author.address}}" target="_new">{{site.author.address}}</a></li>
                 </ul>
             </footer>

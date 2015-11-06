@@ -18,7 +18,7 @@ Her are some tools production ready so we can _focus on something else_.
 - Analytics
 - Pricing : 500$ / month
 
-[![Tint up](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-02-17%20at%2012.07.39.png)](https://www.tintup.com)
+[![Tint up](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2017.38.48.png)](https://www.tintup.com)
 
 ##SnapCastr
 - Social networks : Facebook, Twitter, Instagram
@@ -27,7 +27,7 @@ Her are some tools production ready so we can _focus on something else_.
 - Analytics
 - Pricing : 500$ (with custom branding : 1000$)
 
-[![SnapCastr](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-02-18%20at%2010.59.02.png)](http://www.snapcastr.com)
+[![SnapCastr](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2017.44.02.png)](http://www.snapcastr.com)
 
 ##Twine Social
 - Social networks : Facebook, Twitter, Instagram, Youtube, Google +, Pinterest, Vine
@@ -35,4 +35,4 @@ Her are some tools production ready so we can _focus on something else_.
 - Multiple layout mode : not too great
 - Analytics
 - Pricing : 130$ - 400$ / month
-[![Twine Social](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-02-18%20at%2011.11.02.png)](http://www.twinesocial.com)
+[![Twine Social](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2017.45.00.png)](http://www.twinesocial.com)

@@ -4,7 +4,7 @@ title: Digital publications
 categories: [inspiration]
 tags: [magazine, publishing]
 description: Digital magazine publishing
-picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.02.03.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.10.17.png
 ---
 {% include JB/setup %}
 
@@ -21,7 +21,7 @@ Finally, __custom apps__ are very flexible as they allow ... everything. They re
 
 
 ## Issuu
-[![Issu](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.09.07.png)](http://issuu.com)
+[![Issu](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.11.06.png)](http://issuu.com)
 
 - Type : PDF viewer
 - Contents : PDF
@@ -31,7 +31,7 @@ Finally, __custom apps__ are very flexible as they allow ... everything. They re
 - Pricing : 25$/month
 
 ## Maz
-[![Maz](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.14.07.png)](http://www.mazdigital.com)
+[![Maz](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.12.01.png)](http://www.mazdigital.com)
 
 - Type : PDF viewer and digital publication
 - Contents : PDF with additional contents (links and videos)
@@ -41,7 +41,7 @@ Finally, __custom apps__ are very flexible as they allow ... everything. They re
 - Pricing : 500$/month + 20 cents/download
 
 ## MagPlus
-[![Mag+](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.11.26.png)](http://www.magplus.com)
+[![Mag+](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.14.03.png)](http://www.magplus.com)
 
 - Type : PDF viewer and digital publication and custom app SDK
 - Contents : PDF or text, links, images and videos
@@ -51,7 +51,7 @@ Finally, __custom apps__ are very flexible as they allow ... everything. They re
 - Pricing : flexible (1000$/issue or 500$/month)
 
 ## Aquafadas
-[![Aquafadas](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.13.10.png)](http://store.aquafadas.com)
+[![Aquafadas](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.15.00.png)](http://store.aquafadas.com)
 
 - Type : PDF viewer and digital publication
 - Contents : PDF or text, links, image and videos
@@ -61,7 +61,7 @@ Finally, __custom apps__ are very flexible as they allow ... everything. They re
 - Pricing : 300$/issue
 
 ## Adobe DPS
-[![Adobe DPS](http://grabs.lucasmouilleron.com/Screen%20Shot%202014-11-04%20at%2017.16.04.png)](http://www.adobe.com/fr/products/digital-publishing-suite-enterprise.html)
+[![Adobe DPS](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.17.05.png)](http://www.adobe.com/fr/products/digital-publishing-suite-enterprise.html)
 
 - Type : digital publiciation
 - Contents : text, links, images and videos

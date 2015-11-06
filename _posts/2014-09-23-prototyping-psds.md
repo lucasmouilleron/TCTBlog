@@ -4,7 +4,7 @@ title: Prototyping, for real ?
 categories: [code]
 tags: [email, sass]
 description: When to prototype and what tools to use
-picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-26%20at%2016.16.23.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-06%20at%2018.23.30.png
 ---
 {% include JB/setup %}
 
