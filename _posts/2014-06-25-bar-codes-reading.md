@@ -3,7 +3,7 @@ layout: post
 title: Lecture de codes barres et QR codes
 categories: [code]
 tags: [qr code, code barre]
-picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202014-09-09%20at%2014.00.36.png
+picture: http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-10%20at%2017.00.33.png
 description: Lecture de codes bars et qr codes depuis différents environnements
 ---
 
